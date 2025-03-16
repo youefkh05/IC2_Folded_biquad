@@ -65,6 +65,36 @@
 					<dependentTest omitted="0">mini_biquad:mini_biquad_circuit:1</dependentTest>
 				</dependentTests>
 			</var>
+			<var>C
+				<value>1</value>
+				<dependentTests>
+					<dependentTest omitted="0">mini_biquad:mini_biquad_circuit:1</dependentTest>
+				</dependentTests>
+			</var>
+			<var>H
+				<value>1</value>
+				<dependentTests>
+					<dependentTest omitted="0">mini_biquad:mini_biquad_circuit:1</dependentTest>
+				</dependentTests>
+			</var>
+			<var>Q
+				<value>1.7</value>
+				<dependentTests>
+					<dependentTest omitted="0">mini_biquad:mini_biquad_circuit:1</dependentTest>
+				</dependentTests>
+			</var>
+			<var>R
+				<value>1</value>
+				<dependentTests>
+					<dependentTest omitted="0">mini_biquad:mini_biquad_circuit:1</dependentTest>
+				</dependentTests>
+			</var>
+			<var>VIN
+				<value>1</value>
+				<dependentTests>
+					<dependentTest omitted="0">mini_biquad:mini_biquad_circuit:1</dependentTest>
+				</dependentTests>
+			</var>
 		</vars>
 	</active>
 	<history>History</history>
