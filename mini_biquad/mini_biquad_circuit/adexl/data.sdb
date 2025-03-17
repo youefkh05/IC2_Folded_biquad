@@ -54,19 +54,19 @@
 		</tests>
 		<vars>
 			<var>vdd_n
-				<value>-vdd_p</value>
+				<value>-1</value>
 				<dependentTests>
 					<dependentTest omitted="0">mini_biquad:mini_biquad_circuit:1</dependentTest>
 				</dependentTests>
 			</var>
 			<var>Vdd_p
-				<value>12</value>
+				<value>1</value>
 				<dependentTests>
 					<dependentTest omitted="0">mini_biquad:mini_biquad_circuit:1</dependentTest>
 				</dependentTests>
 			</var>
 			<var>C
-				<value>1</value>
+				<value>10p</value>
 				<dependentTests>
 					<dependentTest omitted="0">mini_biquad:mini_biquad_circuit:1</dependentTest>
 				</dependentTests>
@@ -84,7 +84,7 @@
 				</dependentTests>
 			</var>
 			<var>R
-				<value>1</value>
+				<value>3.183k</value>
 				<dependentTests>
 					<dependentTest omitted="0">mini_biquad:mini_biquad_circuit:1</dependentTest>
 				</dependentTests>
@@ -96,6 +96,1162 @@
 				</dependentTests>
 			</var>
 		</vars>
+		<overwritehistoryname>Interactive.0</overwritehistoryname>
+		<plottingoptions>
+			<plottingoption>plottype
+				<value>None</value>
+			</plottingoption>
+			<plottingoption>usewaveformtemplate
+				<value>no</value>
+			</plottingoption>
+			<plottingoption>waveformtemplate
+				<value>                            </value>
+			</plottingoption>
+		</plottingoptions>
 	</active>
-	<history>History</history>
+	<history>History
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.0
+			<checkpoint>
+				<corners>
+					<corner enabled="1">_default</corner>
+				</corners>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+					</extension>
+				</extensions>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<overwritehistory>0</overwritehistory>
+				<tests>
+					<test>mini_biquad:mini_biquad_circuit:1
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>mini_biquad_circuit</value>
+							</option>
+							<option>lib
+								<value>mini_biquad</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>mini_biquad:mini_biquad_circuit:1_none_Interactive.0</value>
+							</option>
+						</tooloptions>
+						<origoptions>
+							<option>cell
+								<value>mini_biquad_circuit</value>
+							</option>
+							<option>lib
+								<value>mini_biquad</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+					</test>
+				</tests>
+				<vars>
+					<var>vdd_n
+						<value>-vdd_p</value>
+						<dependentTests>
+							<dependentTest omitted="0">mini_biquad:mini_biquad_circuit:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Vdd_p
+						<value>12</value>
+						<dependentTests>
+							<dependentTest omitted="0">mini_biquad:mini_biquad_circuit:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>C
+						<value>10p</value>
+						<dependentTests>
+							<dependentTest omitted="0">mini_biquad:mini_biquad_circuit:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>H
+						<value>1</value>
+						<dependentTests>
+							<dependentTest omitted="0">mini_biquad:mini_biquad_circuit:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Q
+						<value>1.7</value>
+						<dependentTests>
+							<dependentTest omitted="0">mini_biquad:mini_biquad_circuit:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>R
+						<value>3.183k</value>
+						<dependentTests>
+							<dependentTest omitted="0">mini_biquad:mini_biquad_circuit:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VIN
+						<value>1</value>
+						<dependentTests>
+							<dependentTest omitted="0">mini_biquad:mini_biquad_circuit:1</dependentTest>
+						</dependentTests>
+					</var>
+				</vars>
+				<overwritehistoryname>Interactive.0</overwritehistoryname>
+				<plottingoptions>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>waveformtemplate
+						<value>                            </value>
+					</plottingoption>
+				</plottingoptions>
+				<sortVariableValues>0</sortVariableValues>
+			</checkpoint>
+			<timestamp>Mon Mar 17 11:22:10 2025
+</timestamp>
+			<resultsname>/home/cadence/IC2_Mini_biquad/IC2_Mini_biquad/mini_biquad/mini_biquad_circuit/adexl/results/data/Interactive.0.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.0.rdb</simresults>
+			<rawdatadelstrategy>SaveAll</rawdatadelstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/berkeley_cadence_112210933</localpsfdir>
+			<psfdir>/home/cadence/simulation/mini_biquad/mini_biquad_circuit/adexl/results/data/Interactive.0</psfdir>
+			<simdir>$AXL_PROJECT_DIR/mini_biquad/mini_biquad_circuit/adexl/results/data/Interactive.0</simdir>
+			<gendatasheetplotsonsimulation>1</gendatasheetplotsonsimulation>
+			<runlog>/home/cadence/IC2_Mini_biquad/IC2_Mini_biquad/mini_biquad/mini_biquad_circuit/adexl/results/data/Interactive.0.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.0.log</runlogfile>
+			<schematicpoint></schematicpoint>
+			<test>all</test>
+		</historyentry>
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.1
+			<checkpoint>
+				<corners>
+					<corner enabled="1">_default</corner>
+				</corners>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+					</extension>
+				</extensions>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<overwritehistory>0</overwritehistory>
+				<tests>
+					<test>mini_biquad:mini_biquad_circuit:1
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>mini_biquad_circuit</value>
+							</option>
+							<option>lib
+								<value>mini_biquad</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>mini_biquad:mini_biquad_circuit:1_none_Interactive.1</value>
+							</option>
+						</tooloptions>
+						<origoptions>
+							<option>cell
+								<value>mini_biquad_circuit</value>
+							</option>
+							<option>lib
+								<value>mini_biquad</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+					</test>
+				</tests>
+				<vars>
+					<var>vdd_n
+						<value>-vdd_p</value>
+						<dependentTests>
+							<dependentTest omitted="0">mini_biquad:mini_biquad_circuit:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Vdd_p
+						<value>12</value>
+						<dependentTests>
+							<dependentTest omitted="0">mini_biquad:mini_biquad_circuit:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>C
+						<value>10p</value>
+						<dependentTests>
+							<dependentTest omitted="0">mini_biquad:mini_biquad_circuit:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>H
+						<value>1</value>
+						<dependentTests>
+							<dependentTest omitted="0">mini_biquad:mini_biquad_circuit:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Q
+						<value>1.7</value>
+						<dependentTests>
+							<dependentTest omitted="0">mini_biquad:mini_biquad_circuit:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>R
+						<value>3.183k</value>
+						<dependentTests>
+							<dependentTest omitted="0">mini_biquad:mini_biquad_circuit:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VIN
+						<value>1</value>
+						<dependentTests>
+							<dependentTest omitted="0">mini_biquad:mini_biquad_circuit:1</dependentTest>
+						</dependentTests>
+					</var>
+				</vars>
+				<overwritehistoryname>Interactive.0</overwritehistoryname>
+				<plottingoptions>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>waveformtemplate
+						<value>                            </value>
+					</plottingoption>
+				</plottingoptions>
+				<sortVariableValues>0</sortVariableValues>
+			</checkpoint>
+			<timestamp>Mon Mar 17 11:23:09 2025
+</timestamp>
+			<resultsname>/home/cadence/IC2_Mini_biquad/IC2_Mini_biquad/mini_biquad/mini_biquad_circuit/adexl/results/data/Interactive.1.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.1.rdb</simresults>
+			<rawdatadelstrategy>SaveAll</rawdatadelstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/berkeley_cadence_112309565</localpsfdir>
+			<psfdir>/home/cadence/simulation/mini_biquad/mini_biquad_circuit/adexl/results/data/Interactive.1</psfdir>
+			<simdir>$AXL_PROJECT_DIR/mini_biquad/mini_biquad_circuit/adexl/results/data/Interactive.1</simdir>
+			<gendatasheetplotsonsimulation>1</gendatasheetplotsonsimulation>
+			<runlog>/home/cadence/IC2_Mini_biquad/IC2_Mini_biquad/mini_biquad/mini_biquad_circuit/adexl/results/data/Interactive.1.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.1.log</runlogfile>
+			<schematicpoint></schematicpoint>
+			<test>all</test>
+		</historyentry>
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.2
+			<checkpoint>
+				<corners>
+					<corner enabled="1">_default</corner>
+				</corners>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+					</extension>
+				</extensions>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<overwritehistory>0</overwritehistory>
+				<tests>
+					<test>mini_biquad:mini_biquad_circuit:1
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>mini_biquad_circuit</value>
+							</option>
+							<option>lib
+								<value>mini_biquad</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>mini_biquad:mini_biquad_circuit:1_none_Interactive.2</value>
+							</option>
+						</tooloptions>
+						<origoptions>
+							<option>cell
+								<value>mini_biquad_circuit</value>
+							</option>
+							<option>lib
+								<value>mini_biquad</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+					</test>
+				</tests>
+				<vars>
+					<var>vdd_n
+						<value>-12</value>
+						<dependentTests>
+							<dependentTest omitted="0">mini_biquad:mini_biquad_circuit:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Vdd_p
+						<value>12</value>
+						<dependentTests>
+							<dependentTest omitted="0">mini_biquad:mini_biquad_circuit:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>C
+						<value>10p</value>
+						<dependentTests>
+							<dependentTest omitted="0">mini_biquad:mini_biquad_circuit:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>H
+						<value>1</value>
+						<dependentTests>
+							<dependentTest omitted="0">mini_biquad:mini_biquad_circuit:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Q
+						<value>1.7</value>
+						<dependentTests>
+							<dependentTest omitted="0">mini_biquad:mini_biquad_circuit:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>R
+						<value>3.183k</value>
+						<dependentTests>
+							<dependentTest omitted="0">mini_biquad:mini_biquad_circuit:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VIN
+						<value>1</value>
+						<dependentTests>
+							<dependentTest omitted="0">mini_biquad:mini_biquad_circuit:1</dependentTest>
+						</dependentTests>
+					</var>
+				</vars>
+				<overwritehistoryname>Interactive.0</overwritehistoryname>
+				<plottingoptions>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>waveformtemplate
+						<value>                            </value>
+					</plottingoption>
+				</plottingoptions>
+				<sortVariableValues>0</sortVariableValues>
+			</checkpoint>
+			<timestamp>Mon Mar 17 11:23:24 2025
+</timestamp>
+			<resultsname>/home/cadence/IC2_Mini_biquad/IC2_Mini_biquad/mini_biquad/mini_biquad_circuit/adexl/results/data/Interactive.2.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.2.rdb</simresults>
+			<rawdatadelstrategy>SaveAll</rawdatadelstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/berkeley_cadence_112324780</localpsfdir>
+			<psfdir>/home/cadence/simulation/mini_biquad/mini_biquad_circuit/adexl/results/data/Interactive.2</psfdir>
+			<simdir>$AXL_PROJECT_DIR/mini_biquad/mini_biquad_circuit/adexl/results/data/Interactive.2</simdir>
+			<gendatasheetplotsonsimulation>1</gendatasheetplotsonsimulation>
+			<runlog>/home/cadence/IC2_Mini_biquad/IC2_Mini_biquad/mini_biquad/mini_biquad_circuit/adexl/results/data/Interactive.2.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.2.log</runlogfile>
+			<schematicpoint></schematicpoint>
+			<test>all</test>
+		</historyentry>
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.3
+			<checkpoint>
+				<corners>
+					<corner enabled="1">_default</corner>
+				</corners>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+					</extension>
+				</extensions>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<overwritehistory>0</overwritehistory>
+				<tests>
+					<test>mini_biquad:mini_biquad_circuit:1
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>mini_biquad_circuit</value>
+							</option>
+							<option>lib
+								<value>mini_biquad</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>mini_biquad:mini_biquad_circuit:1_none_Interactive.3</value>
+							</option>
+						</tooloptions>
+						<origoptions>
+							<option>cell
+								<value>mini_biquad_circuit</value>
+							</option>
+							<option>lib
+								<value>mini_biquad</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+					</test>
+				</tests>
+				<vars>
+					<var>vdd_n
+						<value>-1</value>
+						<dependentTests>
+							<dependentTest omitted="0">mini_biquad:mini_biquad_circuit:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Vdd_p
+						<value>1</value>
+						<dependentTests>
+							<dependentTest omitted="0">mini_biquad:mini_biquad_circuit:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>C
+						<value>10p</value>
+						<dependentTests>
+							<dependentTest omitted="0">mini_biquad:mini_biquad_circuit:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>H
+						<value>1</value>
+						<dependentTests>
+							<dependentTest omitted="0">mini_biquad:mini_biquad_circuit:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Q
+						<value>1.7</value>
+						<dependentTests>
+							<dependentTest omitted="0">mini_biquad:mini_biquad_circuit:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>R
+						<value>3.183k</value>
+						<dependentTests>
+							<dependentTest omitted="0">mini_biquad:mini_biquad_circuit:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VIN
+						<value>1</value>
+						<dependentTests>
+							<dependentTest omitted="0">mini_biquad:mini_biquad_circuit:1</dependentTest>
+						</dependentTests>
+					</var>
+				</vars>
+				<overwritehistoryname>Interactive.0</overwritehistoryname>
+				<plottingoptions>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>waveformtemplate
+						<value>                            </value>
+					</plottingoption>
+				</plottingoptions>
+				<sortVariableValues>0</sortVariableValues>
+			</checkpoint>
+			<timestamp>Mon Mar 17 11:25:58 2025
+</timestamp>
+			<resultsname>/home/cadence/IC2_Mini_biquad/IC2_Mini_biquad/mini_biquad/mini_biquad_circuit/adexl/results/data/Interactive.3.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.3.rdb</simresults>
+			<rawdatadelstrategy>SaveAll</rawdatadelstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/berkeley_cadence_112558505</localpsfdir>
+			<psfdir>/home/cadence/simulation/mini_biquad/mini_biquad_circuit/adexl/results/data/Interactive.3</psfdir>
+			<simdir>$AXL_PROJECT_DIR/mini_biquad/mini_biquad_circuit/adexl/results/data/Interactive.3</simdir>
+			<gendatasheetplotsonsimulation>1</gendatasheetplotsonsimulation>
+			<runlog>/home/cadence/IC2_Mini_biquad/IC2_Mini_biquad/mini_biquad/mini_biquad_circuit/adexl/results/data/Interactive.3.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.3.log</runlogfile>
+			<schematicpoint></schematicpoint>
+			<test>all</test>
+		</historyentry>
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.4
+			<checkpoint>
+				<corners>
+					<corner enabled="1">_default</corner>
+				</corners>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+					</extension>
+				</extensions>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<overwritehistory>0</overwritehistory>
+				<tests>
+					<test>mini_biquad:mini_biquad_circuit:1
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>mini_biquad_circuit</value>
+							</option>
+							<option>lib
+								<value>mini_biquad</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>mini_biquad:mini_biquad_circuit:1_none_Interactive.4</value>
+							</option>
+						</tooloptions>
+						<origoptions>
+							<option>cell
+								<value>mini_biquad_circuit</value>
+							</option>
+							<option>lib
+								<value>mini_biquad</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+					</test>
+				</tests>
+				<vars>
+					<var>vdd_n
+						<value>-1</value>
+						<dependentTests>
+							<dependentTest omitted="0">mini_biquad:mini_biquad_circuit:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Vdd_p
+						<value>1</value>
+						<dependentTests>
+							<dependentTest omitted="0">mini_biquad:mini_biquad_circuit:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>C
+						<value>10p</value>
+						<dependentTests>
+							<dependentTest omitted="0">mini_biquad:mini_biquad_circuit:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>H
+						<value>1</value>
+						<dependentTests>
+							<dependentTest omitted="0">mini_biquad:mini_biquad_circuit:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Q
+						<value>1.7</value>
+						<dependentTests>
+							<dependentTest omitted="0">mini_biquad:mini_biquad_circuit:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>R
+						<value>3.183k</value>
+						<dependentTests>
+							<dependentTest omitted="0">mini_biquad:mini_biquad_circuit:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VIN
+						<value>1</value>
+						<dependentTests>
+							<dependentTest omitted="0">mini_biquad:mini_biquad_circuit:1</dependentTest>
+						</dependentTests>
+					</var>
+				</vars>
+				<overwritehistoryname>Interactive.0</overwritehistoryname>
+				<plottingoptions>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>waveformtemplate
+						<value>                            </value>
+					</plottingoption>
+				</plottingoptions>
+				<sortVariableValues>0</sortVariableValues>
+			</checkpoint>
+			<timestamp>Mon Mar 17 11:27:54 2025
+</timestamp>
+			<resultsname>/home/cadence/IC2_Mini_biquad/IC2_Mini_biquad/mini_biquad/mini_biquad_circuit/adexl/results/data/Interactive.4.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.4.rdb</simresults>
+			<rawdatadelstrategy>SaveAll</rawdatadelstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/berkeley_cadence_112754794</localpsfdir>
+			<psfdir>/home/cadence/simulation/mini_biquad/mini_biquad_circuit/adexl/results/data/Interactive.4</psfdir>
+			<simdir>$AXL_PROJECT_DIR/mini_biquad/mini_biquad_circuit/adexl/results/data/Interactive.4</simdir>
+			<gendatasheetplotsonsimulation>1</gendatasheetplotsonsimulation>
+			<runlog>/home/cadence/IC2_Mini_biquad/IC2_Mini_biquad/mini_biquad/mini_biquad_circuit/adexl/results/data/Interactive.4.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.4.log</runlogfile>
+			<schematicpoint></schematicpoint>
+			<test>all</test>
+		</historyentry>
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.5
+			<checkpoint>
+				<corners>
+					<corner enabled="1">_default</corner>
+				</corners>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+					</extension>
+				</extensions>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<overwritehistory>0</overwritehistory>
+				<tests>
+					<test>mini_biquad:mini_biquad_circuit:1
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>mini_biquad_circuit</value>
+							</option>
+							<option>lib
+								<value>mini_biquad</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>mini_biquad:mini_biquad_circuit:1_none_Interactive.5</value>
+							</option>
+						</tooloptions>
+						<origoptions>
+							<option>cell
+								<value>mini_biquad_circuit</value>
+							</option>
+							<option>lib
+								<value>mini_biquad</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+					</test>
+				</tests>
+				<vars>
+					<var>vdd_n
+						<value>-1</value>
+						<dependentTests>
+							<dependentTest omitted="0">mini_biquad:mini_biquad_circuit:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Vdd_p
+						<value>1</value>
+						<dependentTests>
+							<dependentTest omitted="0">mini_biquad:mini_biquad_circuit:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>C
+						<value>10p</value>
+						<dependentTests>
+							<dependentTest omitted="0">mini_biquad:mini_biquad_circuit:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>H
+						<value>1</value>
+						<dependentTests>
+							<dependentTest omitted="0">mini_biquad:mini_biquad_circuit:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Q
+						<value>1.7</value>
+						<dependentTests>
+							<dependentTest omitted="0">mini_biquad:mini_biquad_circuit:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>R
+						<value>3.183k</value>
+						<dependentTests>
+							<dependentTest omitted="0">mini_biquad:mini_biquad_circuit:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VIN
+						<value>1</value>
+						<dependentTests>
+							<dependentTest omitted="0">mini_biquad:mini_biquad_circuit:1</dependentTest>
+						</dependentTests>
+					</var>
+				</vars>
+				<overwritehistoryname>Interactive.0</overwritehistoryname>
+				<plottingoptions>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>waveformtemplate
+						<value>                            </value>
+					</plottingoption>
+				</plottingoptions>
+				<sortVariableValues>0</sortVariableValues>
+			</checkpoint>
+			<timestamp>Mon Mar 17 11:35:10 2025
+</timestamp>
+			<resultsname>/home/cadence/IC2_Mini_biquad/IC2_Mini_biquad/mini_biquad/mini_biquad_circuit/adexl/results/data/Interactive.5.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.5.rdb</simresults>
+			<rawdatadelstrategy>SaveAll</rawdatadelstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/berkeley_cadence_113510151</localpsfdir>
+			<psfdir>/home/cadence/simulation/mini_biquad/mini_biquad_circuit/adexl/results/data/Interactive.5</psfdir>
+			<simdir>$AXL_PROJECT_DIR/mini_biquad/mini_biquad_circuit/adexl/results/data/Interactive.5</simdir>
+			<gendatasheetplotsonsimulation>1</gendatasheetplotsonsimulation>
+			<runlog>/home/cadence/IC2_Mini_biquad/IC2_Mini_biquad/mini_biquad/mini_biquad_circuit/adexl/results/data/Interactive.5.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.5.log</runlogfile>
+			<schematicpoint></schematicpoint>
+			<test>all</test>
+		</historyentry>
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.6
+			<checkpoint>
+				<corners>
+					<corner enabled="1">_default</corner>
+				</corners>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+					</extension>
+				</extensions>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<overwritehistory>0</overwritehistory>
+				<tests>
+					<test>mini_biquad:mini_biquad_circuit:1
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>mini_biquad_circuit</value>
+							</option>
+							<option>lib
+								<value>mini_biquad</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>mini_biquad:mini_biquad_circuit:1_none_Interactive.6</value>
+							</option>
+						</tooloptions>
+						<origoptions>
+							<option>cell
+								<value>mini_biquad_circuit</value>
+							</option>
+							<option>lib
+								<value>mini_biquad</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+					</test>
+				</tests>
+				<vars>
+					<var>vdd_n
+						<value>-1</value>
+						<dependentTests>
+							<dependentTest omitted="0">mini_biquad:mini_biquad_circuit:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Vdd_p
+						<value>1</value>
+						<dependentTests>
+							<dependentTest omitted="0">mini_biquad:mini_biquad_circuit:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>C
+						<value>10p</value>
+						<dependentTests>
+							<dependentTest omitted="0">mini_biquad:mini_biquad_circuit:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>H
+						<value>1</value>
+						<dependentTests>
+							<dependentTest omitted="0">mini_biquad:mini_biquad_circuit:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Q
+						<value>1.7</value>
+						<dependentTests>
+							<dependentTest omitted="0">mini_biquad:mini_biquad_circuit:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>R
+						<value>3.183k</value>
+						<dependentTests>
+							<dependentTest omitted="0">mini_biquad:mini_biquad_circuit:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VIN
+						<value>1</value>
+						<dependentTests>
+							<dependentTest omitted="0">mini_biquad:mini_biquad_circuit:1</dependentTest>
+						</dependentTests>
+					</var>
+				</vars>
+				<overwritehistoryname>Interactive.0</overwritehistoryname>
+				<plottingoptions>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>waveformtemplate
+						<value>                            </value>
+					</plottingoption>
+				</plottingoptions>
+				<sortVariableValues>0</sortVariableValues>
+			</checkpoint>
+			<timestamp>Mon Mar 17 11:36:52 2025
+</timestamp>
+			<resultsname>/home/cadence/IC2_Mini_biquad/IC2_Mini_biquad/mini_biquad/mini_biquad_circuit/adexl/results/data/Interactive.6.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.6.rdb</simresults>
+			<rawdatadelstrategy>SaveAll</rawdatadelstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/berkeley_cadence_113652915</localpsfdir>
+			<psfdir>/home/cadence/simulation/mini_biquad/mini_biquad_circuit/adexl/results/data/Interactive.6</psfdir>
+			<simdir>$AXL_PROJECT_DIR/mini_biquad/mini_biquad_circuit/adexl/results/data/Interactive.6</simdir>
+			<gendatasheetplotsonsimulation>1</gendatasheetplotsonsimulation>
+			<runlog>/home/cadence/IC2_Mini_biquad/IC2_Mini_biquad/mini_biquad/mini_biquad_circuit/adexl/results/data/Interactive.6.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.6.log</runlogfile>
+			<schematicpoint></schematicpoint>
+			<test>all</test>
+		</historyentry>
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.7
+			<checkpoint>
+				<corners>
+					<corner enabled="1">_default</corner>
+				</corners>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+					</extension>
+				</extensions>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<overwritehistory>0</overwritehistory>
+				<tests>
+					<test>mini_biquad:mini_biquad_circuit:1
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>mini_biquad_circuit</value>
+							</option>
+							<option>lib
+								<value>mini_biquad</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>mini_biquad:mini_biquad_circuit:1_none_Interactive.7</value>
+							</option>
+						</tooloptions>
+						<origoptions>
+							<option>cell
+								<value>mini_biquad_circuit</value>
+							</option>
+							<option>lib
+								<value>mini_biquad</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+					</test>
+				</tests>
+				<vars>
+					<var>vdd_n
+						<value>-1</value>
+						<dependentTests>
+							<dependentTest omitted="0">mini_biquad:mini_biquad_circuit:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Vdd_p
+						<value>1</value>
+						<dependentTests>
+							<dependentTest omitted="0">mini_biquad:mini_biquad_circuit:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>C
+						<value>10p</value>
+						<dependentTests>
+							<dependentTest omitted="0">mini_biquad:mini_biquad_circuit:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>H
+						<value>1</value>
+						<dependentTests>
+							<dependentTest omitted="0">mini_biquad:mini_biquad_circuit:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Q
+						<value>1.7</value>
+						<dependentTests>
+							<dependentTest omitted="0">mini_biquad:mini_biquad_circuit:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>R
+						<value>3.183k</value>
+						<dependentTests>
+							<dependentTest omitted="0">mini_biquad:mini_biquad_circuit:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VIN
+						<value>1</value>
+						<dependentTests>
+							<dependentTest omitted="0">mini_biquad:mini_biquad_circuit:1</dependentTest>
+						</dependentTests>
+					</var>
+				</vars>
+				<overwritehistoryname>Interactive.0</overwritehistoryname>
+				<plottingoptions>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>waveformtemplate
+						<value>                            </value>
+					</plottingoption>
+				</plottingoptions>
+				<sortVariableValues>0</sortVariableValues>
+			</checkpoint>
+			<timestamp>Mon Mar 17 11:52:23 2025
+</timestamp>
+			<resultsname>/home/cadence/IC2_Mini_biquad/IC2_Mini_biquad/mini_biquad/mini_biquad_circuit/adexl/results/data/Interactive.7.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.7.rdb</simresults>
+			<rawdatadelstrategy>SaveAll</rawdatadelstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/berkeley_cadence_115223158</localpsfdir>
+			<psfdir>/home/cadence/simulation/mini_biquad/mini_biquad_circuit/adexl/results/data/Interactive.7</psfdir>
+			<simdir>$AXL_PROJECT_DIR/mini_biquad/mini_biquad_circuit/adexl/results/data/Interactive.7</simdir>
+			<gendatasheetplotsonsimulation>1</gendatasheetplotsonsimulation>
+			<runlog>/home/cadence/IC2_Mini_biquad/IC2_Mini_biquad/mini_biquad/mini_biquad_circuit/adexl/results/data/Interactive.7.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.7.log</runlogfile>
+			<schematicpoint></schematicpoint>
+			<test>all</test>
+		</historyentry>
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.8
+			<checkpoint>
+				<corners>
+					<corner enabled="1">_default</corner>
+				</corners>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+					</extension>
+				</extensions>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<overwritehistory>0</overwritehistory>
+				<tests>
+					<test>mini_biquad:mini_biquad_circuit:1
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>mini_biquad_circuit</value>
+							</option>
+							<option>lib
+								<value>mini_biquad</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>mini_biquad:mini_biquad_circuit:1_none_Interactive.8</value>
+							</option>
+						</tooloptions>
+						<origoptions>
+							<option>cell
+								<value>mini_biquad_circuit</value>
+							</option>
+							<option>lib
+								<value>mini_biquad</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+					</test>
+				</tests>
+				<vars>
+					<var>vdd_n
+						<value>-1</value>
+						<dependentTests>
+							<dependentTest omitted="0">mini_biquad:mini_biquad_circuit:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Vdd_p
+						<value>1</value>
+						<dependentTests>
+							<dependentTest omitted="0">mini_biquad:mini_biquad_circuit:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>C
+						<value>10p</value>
+						<dependentTests>
+							<dependentTest omitted="0">mini_biquad:mini_biquad_circuit:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>H
+						<value>1</value>
+						<dependentTests>
+							<dependentTest omitted="0">mini_biquad:mini_biquad_circuit:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Q
+						<value>1.7</value>
+						<dependentTests>
+							<dependentTest omitted="0">mini_biquad:mini_biquad_circuit:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>R
+						<value>3.183k</value>
+						<dependentTests>
+							<dependentTest omitted="0">mini_biquad:mini_biquad_circuit:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VIN
+						<value>1</value>
+						<dependentTests>
+							<dependentTest omitted="0">mini_biquad:mini_biquad_circuit:1</dependentTest>
+						</dependentTests>
+					</var>
+				</vars>
+				<overwritehistoryname>Interactive.0</overwritehistoryname>
+				<plottingoptions>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>waveformtemplate
+						<value>                            </value>
+					</plottingoption>
+				</plottingoptions>
+				<sortVariableValues>0</sortVariableValues>
+			</checkpoint>
+			<timestamp>Mon Mar 17 11:52:43 2025
+</timestamp>
+			<resultsname>/home/cadence/IC2_Mini_biquad/IC2_Mini_biquad/mini_biquad/mini_biquad_circuit/adexl/results/data/Interactive.8.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.8.rdb</simresults>
+			<rawdatadelstrategy>SaveAll</rawdatadelstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/berkeley_cadence_115243761</localpsfdir>
+			<psfdir>/home/cadence/simulation/mini_biquad/mini_biquad_circuit/adexl/results/data/Interactive.8</psfdir>
+			<simdir>$AXL_PROJECT_DIR/mini_biquad/mini_biquad_circuit/adexl/results/data/Interactive.8</simdir>
+			<gendatasheetplotsonsimulation>1</gendatasheetplotsonsimulation>
+			<runlog>/home/cadence/IC2_Mini_biquad/IC2_Mini_biquad/mini_biquad/mini_biquad_circuit/adexl/results/data/Interactive.8.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.8.log</runlogfile>
+			<schematicpoint></schematicpoint>
+			<test>all</test>
+		</historyentry>
+	</history>
 </setupdb>
