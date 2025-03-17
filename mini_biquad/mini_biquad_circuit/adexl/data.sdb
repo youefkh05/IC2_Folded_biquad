@@ -105,7 +105,7 @@
 				<value>no</value>
 			</plottingoption>
 			<plottingoption>waveformtemplate
-				<value>                            </value>
+				<value></value>
 			</plottingoption>
 		</plottingoptions>
 	</active>
@@ -216,13 +216,12 @@
 						<value>no</value>
 					</plottingoption>
 					<plottingoption>waveformtemplate
-						<value>                            </value>
+						<value></value>
 					</plottingoption>
 				</plottingoptions>
 				<sortVariableValues>0</sortVariableValues>
 			</checkpoint>
-			<timestamp>Mon Mar 17 11:22:10 2025
-</timestamp>
+			<timestamp>Mon Mar 17 11:22:10 2025</timestamp>
 			<resultsname>/home/cadence/IC2_Mini_biquad/IC2_Mini_biquad/mini_biquad/mini_biquad_circuit/adexl/results/data/Interactive.0.rdb</resultsname>
 			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.0.rdb</simresults>
 			<rawdatadelstrategy>SaveAll</rawdatadelstrategy>
@@ -343,13 +342,12 @@
 						<value>no</value>
 					</plottingoption>
 					<plottingoption>waveformtemplate
-						<value>                            </value>
+						<value></value>
 					</plottingoption>
 				</plottingoptions>
 				<sortVariableValues>0</sortVariableValues>
 			</checkpoint>
-			<timestamp>Mon Mar 17 11:23:09 2025
-</timestamp>
+			<timestamp>Mon Mar 17 11:23:09 2025</timestamp>
 			<resultsname>/home/cadence/IC2_Mini_biquad/IC2_Mini_biquad/mini_biquad/mini_biquad_circuit/adexl/results/data/Interactive.1.rdb</resultsname>
 			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.1.rdb</simresults>
 			<rawdatadelstrategy>SaveAll</rawdatadelstrategy>
@@ -470,13 +468,12 @@
 						<value>no</value>
 					</plottingoption>
 					<plottingoption>waveformtemplate
-						<value>                            </value>
+						<value></value>
 					</plottingoption>
 				</plottingoptions>
 				<sortVariableValues>0</sortVariableValues>
 			</checkpoint>
-			<timestamp>Mon Mar 17 11:23:24 2025
-</timestamp>
+			<timestamp>Mon Mar 17 11:23:24 2025</timestamp>
 			<resultsname>/home/cadence/IC2_Mini_biquad/IC2_Mini_biquad/mini_biquad/mini_biquad_circuit/adexl/results/data/Interactive.2.rdb</resultsname>
 			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.2.rdb</simresults>
 			<rawdatadelstrategy>SaveAll</rawdatadelstrategy>
@@ -597,13 +594,12 @@
 						<value>no</value>
 					</plottingoption>
 					<plottingoption>waveformtemplate
-						<value>                            </value>
+						<value></value>
 					</plottingoption>
 				</plottingoptions>
 				<sortVariableValues>0</sortVariableValues>
 			</checkpoint>
-			<timestamp>Mon Mar 17 11:25:58 2025
-</timestamp>
+			<timestamp>Mon Mar 17 11:25:58 2025</timestamp>
 			<resultsname>/home/cadence/IC2_Mini_biquad/IC2_Mini_biquad/mini_biquad/mini_biquad_circuit/adexl/results/data/Interactive.3.rdb</resultsname>
 			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.3.rdb</simresults>
 			<rawdatadelstrategy>SaveAll</rawdatadelstrategy>
@@ -724,13 +720,12 @@
 						<value>no</value>
 					</plottingoption>
 					<plottingoption>waveformtemplate
-						<value>                            </value>
+						<value></value>
 					</plottingoption>
 				</plottingoptions>
 				<sortVariableValues>0</sortVariableValues>
 			</checkpoint>
-			<timestamp>Mon Mar 17 11:27:54 2025
-</timestamp>
+			<timestamp>Mon Mar 17 11:27:54 2025</timestamp>
 			<resultsname>/home/cadence/IC2_Mini_biquad/IC2_Mini_biquad/mini_biquad/mini_biquad_circuit/adexl/results/data/Interactive.4.rdb</resultsname>
 			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.4.rdb</simresults>
 			<rawdatadelstrategy>SaveAll</rawdatadelstrategy>
@@ -851,13 +846,12 @@
 						<value>no</value>
 					</plottingoption>
 					<plottingoption>waveformtemplate
-						<value>                            </value>
+						<value></value>
 					</plottingoption>
 				</plottingoptions>
 				<sortVariableValues>0</sortVariableValues>
 			</checkpoint>
-			<timestamp>Mon Mar 17 11:35:10 2025
-</timestamp>
+			<timestamp>Mon Mar 17 11:35:10 2025</timestamp>
 			<resultsname>/home/cadence/IC2_Mini_biquad/IC2_Mini_biquad/mini_biquad/mini_biquad_circuit/adexl/results/data/Interactive.5.rdb</resultsname>
 			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.5.rdb</simresults>
 			<rawdatadelstrategy>SaveAll</rawdatadelstrategy>
@@ -978,13 +972,12 @@
 						<value>no</value>
 					</plottingoption>
 					<plottingoption>waveformtemplate
-						<value>                            </value>
+						<value></value>
 					</plottingoption>
 				</plottingoptions>
 				<sortVariableValues>0</sortVariableValues>
 			</checkpoint>
-			<timestamp>Mon Mar 17 11:36:52 2025
-</timestamp>
+			<timestamp>Mon Mar 17 11:36:52 2025</timestamp>
 			<resultsname>/home/cadence/IC2_Mini_biquad/IC2_Mini_biquad/mini_biquad/mini_biquad_circuit/adexl/results/data/Interactive.6.rdb</resultsname>
 			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.6.rdb</simresults>
 			<rawdatadelstrategy>SaveAll</rawdatadelstrategy>
@@ -1105,13 +1098,12 @@
 						<value>no</value>
 					</plottingoption>
 					<plottingoption>waveformtemplate
-						<value>                            </value>
+						<value></value>
 					</plottingoption>
 				</plottingoptions>
 				<sortVariableValues>0</sortVariableValues>
 			</checkpoint>
-			<timestamp>Mon Mar 17 11:52:23 2025
-</timestamp>
+			<timestamp>Mon Mar 17 11:52:23 2025</timestamp>
 			<resultsname>/home/cadence/IC2_Mini_biquad/IC2_Mini_biquad/mini_biquad/mini_biquad_circuit/adexl/results/data/Interactive.7.rdb</resultsname>
 			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.7.rdb</simresults>
 			<rawdatadelstrategy>SaveAll</rawdatadelstrategy>
@@ -1232,13 +1224,12 @@
 						<value>no</value>
 					</plottingoption>
 					<plottingoption>waveformtemplate
-						<value>                            </value>
+						<value></value>
 					</plottingoption>
 				</plottingoptions>
 				<sortVariableValues>0</sortVariableValues>
 			</checkpoint>
-			<timestamp>Mon Mar 17 11:52:43 2025
-</timestamp>
+			<timestamp>Mon Mar 17 11:52:43 2025</timestamp>
 			<resultsname>/home/cadence/IC2_Mini_biquad/IC2_Mini_biquad/mini_biquad/mini_biquad_circuit/adexl/results/data/Interactive.8.rdb</resultsname>
 			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.8.rdb</simresults>
 			<rawdatadelstrategy>SaveAll</rawdatadelstrategy>
@@ -1250,6 +1241,133 @@
 			<gendatasheetplotsonsimulation>1</gendatasheetplotsonsimulation>
 			<runlog>/home/cadence/IC2_Mini_biquad/IC2_Mini_biquad/mini_biquad/mini_biquad_circuit/adexl/results/data/Interactive.8.log</runlog>
 			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.8.log</runlogfile>
+			<schematicpoint></schematicpoint>
+			<test>all</test>
+		</historyentry>
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.9
+			<checkpoint>
+				<corners>
+					<corner enabled="1">_default</corner>
+				</corners>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+					</extension>
+				</extensions>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<overwritehistory>0</overwritehistory>
+				<tests>
+					<test>mini_biquad:mini_biquad_circuit:1
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>mini_biquad_circuit</value>
+							</option>
+							<option>lib
+								<value>mini_biquad</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>mini_biquad:mini_biquad_circuit:1_none_Interactive.9</value>
+							</option>
+						</tooloptions>
+						<origoptions>
+							<option>cell
+								<value>mini_biquad_circuit</value>
+							</option>
+							<option>lib
+								<value>mini_biquad</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+					</test>
+				</tests>
+				<vars>
+					<var>vdd_n
+						<value>-1</value>
+						<dependentTests>
+							<dependentTest omitted="0">mini_biquad:mini_biquad_circuit:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Vdd_p
+						<value>1</value>
+						<dependentTests>
+							<dependentTest omitted="0">mini_biquad:mini_biquad_circuit:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>C
+						<value>10p</value>
+						<dependentTests>
+							<dependentTest omitted="0">mini_biquad:mini_biquad_circuit:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>H
+						<value>1</value>
+						<dependentTests>
+							<dependentTest omitted="0">mini_biquad:mini_biquad_circuit:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Q
+						<value>1.7</value>
+						<dependentTests>
+							<dependentTest omitted="0">mini_biquad:mini_biquad_circuit:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>R
+						<value>3.183k</value>
+						<dependentTests>
+							<dependentTest omitted="0">mini_biquad:mini_biquad_circuit:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VIN
+						<value>1</value>
+						<dependentTests>
+							<dependentTest omitted="0">mini_biquad:mini_biquad_circuit:1</dependentTest>
+						</dependentTests>
+					</var>
+				</vars>
+				<overwritehistoryname>Interactive.0</overwritehistoryname>
+				<plottingoptions>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>waveformtemplate
+						<value></value>
+					</plottingoption>
+				</plottingoptions>
+				<sortVariableValues>0</sortVariableValues>
+			</checkpoint>
+			<timestamp>Mon Mar 17 13:06:26 2025
+</timestamp>
+			<resultsname>/home/cadence/IC2_Mini_biquad/IC2_Mini_biquad/mini_biquad/mini_biquad_circuit/adexl/results/data/Interactive.9.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.9.rdb</simresults>
+			<rawdatadelstrategy>SaveAll</rawdatadelstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/berkeley_cadence_130626436</localpsfdir>
+			<psfdir>/home/cadence/simulation/mini_biquad/mini_biquad_circuit/adexl/results/data/Interactive.9</psfdir>
+			<simdir>$AXL_PROJECT_DIR/mini_biquad/mini_biquad_circuit/adexl/results/data/Interactive.9</simdir>
+			<gendatasheetplotsonsimulation>1</gendatasheetplotsonsimulation>
+			<runlog>/home/cadence/IC2_Mini_biquad/IC2_Mini_biquad/mini_biquad/mini_biquad_circuit/adexl/results/data/Interactive.9.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.9.log</runlogfile>
 			<schematicpoint></schematicpoint>
 			<test>all</test>
 		</historyentry>
