@@ -1,4 +1,4 @@
-(envOpts analysisOrder) ("dc" "pz" "dcmatch" "stb" "tran" "envlp" "ac" "lf" "noise" "xf" "sp" "pss" "pac" "pstb" "pnoise" "pxf" "psp" "qpss" "qpac" "qpnoise" "qpxf" "qpsp" "hb" "hbac" "hbnoise" "sens" "acmatch")
+(envOpts analysisOrder) ("tran")
 (envOpts autoDisplay) t
 (envOpts cmd64bit) nil
 (envOpts cpfIsVMSEnabled) t
