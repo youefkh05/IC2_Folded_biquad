@@ -1,6 +1,6 @@
 Starting Single Run, Sweeps and Corners...
 
-Current time: Mon Mar 17 11:36:53 2025 
+Current time: Wed Apr 23 16:23:57 2025 
 Best design point: 1
 Design specs: 
 	mini_biquad:mini_biquad_circuit:1	corner	Nominal - 
@@ -12,9 +12,10 @@ Design parameters:
 	Q		1.7
 	R		3.183k
 	VIN		1
+	f_trans		1
 
-Interactive.6
+Interactive.17
 Number of points completed: 1
 Number of simulation errors: 0
-Interactive.6 completed. 
-Current time: Mon Mar 17 11:36:55 2025 
+Interactive.17 completed. 
+Current time: Wed Apr 23 16:24:02 2025 

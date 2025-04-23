@@ -1,13 +1,9 @@
 Starting Single Run, Sweeps and Corners...
 
-Current time: Mon Mar 17 11:52:23 2025 
+Current time: Wed Apr 23 16:22:22 2025 
 Best design point: 1
 Design specs: 
 	mini_biquad:mini_biquad_circuit:1	corner	Nominal - 
-	Band Stop		Error	No
-	High Pass		Error	No
-	Low Pass		Error	No
-	Band Pass		Error	No
 Design parameters: 
 	vdd_n		-1
 	Vdd_p		1
@@ -17,8 +13,8 @@ Design parameters:
 	R		3.183k
 	VIN		1
 
-Interactive.7
+Interactive.16
 Number of points completed: 1
-Number of simulation errors: 4
-Interactive.7 completed. 
-Current time: Mon Mar 17 11:52:26 2025 
+Number of simulation errors: 1
+Interactive.16 completed. 
+Current time: Wed Apr 23 16:22:49 2025 
