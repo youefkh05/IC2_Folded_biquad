@@ -1,0 +1,40 @@
+Starting Single Run, Sweeps and Corners...
+
+Current time: Sat Apr 26 07:46:06 2025 
+Best design point: 1
+Design specs: 
+	folded_cascode:Folded_cascode_full_circuit:1	corner	Nominal - 
+	V_out_dB		Error	No
+	GBW		Error	No
+Design parameters: 
+	L_cascN		500n
+	L_cascp		400n
+	L_CM		500n
+	L_fold		400n
+	L_in		500n
+	VDD_AC		0
+	VDIFF_AC		1
+	VDIFF_DC		0
+	VINCM_AC		0
+	VINCM_DC		1.65
+	W_cascN		10.15u
+	W_cascp		10u
+	W_CM		1.25u
+	W_fold		28.36u
+	W_in		45u
+	ISS		130u
+	Vb1		2.54
+	Vb2		1.94
+	Vb3		1.35
+	VIN_DC		1.65
+	Vb0		650m
+	W_CS		125u
+	L_CS		1u
+	LB_CM1		400n
+	WB_CM1		1u
+
+Interactive.54
+Number of points completed: 1
+Number of simulation errors: 2
+Interactive.54 completed. 
+Current time: Sat Apr 26 07:46:19 2025 

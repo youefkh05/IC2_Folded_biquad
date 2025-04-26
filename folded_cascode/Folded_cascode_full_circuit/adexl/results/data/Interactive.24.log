@@ -1,0 +1,34 @@
+Starting Single Run, Sweeps and Corners...
+
+Current time: Fri Apr 25 16:01:51 2025 
+Best design point: 1
+Design specs: 
+	folded_cascode:Folded_cascode_full_circuit:1	corner	Nominal - 
+	gainBwProd(VF("/net1"))		161.2M
+Design parameters: 
+	L_cascN		500n
+	L_cascp		400n
+	L_CM		500n
+	L_fold		400n
+	L_in		500n
+	VDD_AC		0
+	VDIFF_AC		1
+	VDIFF_DC		0
+	VINCM_AC		0
+	VINCM_DC		1.65
+	W_cascN		10.15u
+	W_cascp		10u
+	W_CM		1.25u
+	W_fold		28.36u
+	W_in		45u
+	ISS		130u
+	Vb1		2.54
+	Vb2		1.94
+	Vb3		1.35
+	VIN_DC		1.65
+
+Interactive.24
+Number of points completed: 1
+Number of simulation errors: 0
+Interactive.24 completed. 
+Current time: Fri Apr 25 16:02:06 2025 

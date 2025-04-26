@@ -1,0 +1,6 @@
+# File Created by cadence,,, at Thu Apr 24 17:02:49 2025
+# assisted by CdsLibEditor
+DEFINE folded_cascode folded_cascode
+DEFINE mini_biquad mini_biquad
+SOFTINCLUDE /usr/local/cadence/IC617/share/cdssetup/cds.lib
+DEFINE tsmcN65 /home/cadence/tsmc65nm/tsmcN65
