@@ -11,9 +11,9 @@
 	View         = schematic
 	Simulator    = spectre
 	State Path   = $AXL_SETUPDB_DIR/test_states
-	State Name   = folded_cascode:Folded_cascode_full_circuit:1_none_Interactive.11
-	Results DB   = /home/cadence/IC2_Mini_biquad/folded_cascode/Folded_cascode_full_circuit/adexl/results/data/Interactive.11.rdb
-	Results Dir  = /home/cadence/simulation/folded_cascode/Folded_cascode_full_circuit/adexl/results/data/Interactive.11/1/folded_cascode:Folded_cascode_full_circuit:1
+	State Name   = folded_cascode:Folded_cascode_full_circuit:1_none_Interactive.74
+	Results DB   = /home/cadence/IC2_Mini_biquad/folded_cascode/Folded_cascode_full_circuit/adexl/results/data/Interactive.74.rdb
+	Results Dir  = /home/cadence/simulation/folded_cascode/Folded_cascode_full_circuit/adexl/results/data/Interactive.74/1/folded_cascode:Folded_cascode_full_circuit:1
 	Results Loc  = /home/cadence/simulation/folded_cascode/Folded_cascode_full_circuit/adexl/results/data
 	Project Dir  = /home/cadence/simulation
 	Setup DB loc = /home/cadence/IC2_Mini_biquad/folded_cascode/Folded_cascode_full_circuit/adexl
@@ -27,7 +27,7 @@
 
 
 
-*Info*    Run start for Point ID (11 1) on testbench [
+*Info*    Run start for Point ID (13 1) on testbench [
           folded_cascode:Folded_cascode_full_circuit:1 ].
 
 Resetting statistical vars
@@ -35,7 +35,15 @@ Resetting statistical vars
 *Info*    Setting parameter values ...
 
 Setting var ISS = "130u"
+Setting var LB_CM1 = "400n"
+Setting var LB_CM3 = "400n"
+Setting var LB_VB0 = "1u"
+Setting var LB_VB2_CASC = "400n"
+Setting var LB_VB2_CM = "1u"
+Setting var LB_VB3_CASC = "500n"
+Setting var LB_VB3_CM = "1u"
 Setting var L_CM = "500n"
+Setting var L_CS = "1u"
 Setting var L_cascN = "500n"
 Setting var L_cascp = "400n"
 Setting var L_fold = "400n"
@@ -45,29 +53,40 @@ Setting var VDIFF_AC = "1"
 Setting var VDIFF_DC = "0"
 Setting var VINCM_AC = "0"
 Setting var VINCM_DC = "1.65"
+Setting var VIN_DC = "1.65"
+Setting var Vb0 = "650m"
 Setting var Vb1 = "2.54"
 Setting var Vb2 = "1.94"
 Setting var Vb3 = "1.35"
+Setting var WB_CM1 = "5.9u"
+Setting var WB_CM2 = "14.35e-6"
+Setting var WB_CM3 = "7.175e-6"
+Setting var WB_VB0 = "28.7u"
+Setting var WB_VB2_CASC = "4.2u"
+Setting var WB_VB2_CM = "1.21u"
+Setting var WB_VB3_CASC = "13.805e-6"
+Setting var WB_VB3_CM = "740n"
 Setting var W_CM = "1.25u"
+Setting var W_CS = "110u"
 Setting var W_cascN = "10.15u"
 Setting var W_cascp = "10u"
 Setting var W_fold = "28.36u"
-Setting var W_in = "45u"
+Setting var W_in = "60u"
 Setting temp(T) = 27
 
 *Info*    Netlist Directory =
-          /home/cadence/simulation/folded_cascode/Folded_cascode_full_circuit/adexl/results/data/Interactive.11/1/folded_cascode:Folded_cascode_full_circuit:1/netlist
+          /home/cadence/simulation/folded_cascode/Folded_cascode_full_circuit/adexl/results/data/Interactive.74/1/folded_cascode:Folded_cascode_full_circuit:1/netlist
 
 
 *Info*    Data Directory    =
-          /home/cadence/simulation/folded_cascode/Folded_cascode_full_circuit/adexl/results/data/Interactive.11/1/folded_cascode:Folded_cascode_full_circuit:1
+          /home/cadence/simulation/folded_cascode/Folded_cascode_full_circuit/adexl/results/data/Interactive.74/1/folded_cascode:Folded_cascode_full_circuit:1
 
 
-*Info*    Creating Netlist for Point ID (11 1)
+*Info*    Creating Netlist for Point ID (13 1)
 
 generate netlist...
-Begin Incremental Netlisting Apr 25 15:25:14 2025
-End netlisting Apr 25 15:25:14 2025
+Begin Incremental Netlisting Apr 29 08:06:10 2025
+End netlisting Apr 29 08:06:10 2025
 
 	The netlist is up to date.
 	Time taken to compare the design with netlist:   0.0s
@@ -77,9 +96,9 @@ compose simulator input file...
 
 *Info*    Running simulation on testbench [
           folded_cascode:Folded_cascode_full_circuit:1 ] for Point ID
-          (11 1).
+          (13 1).
 
-Delete psf data in /home/cadence/simulation/folded_cascode/Folded_cascode_full_circuit/adexl/results/data/Interactive.11/1/folded_cascode:Folded_cascode_full_circuit:1/psf.
+Delete psf data in /home/cadence/simulation/folded_cascode/Folded_cascode_full_circuit/adexl/results/data/Interactive.74/1/folded_cascode:Folded_cascode_full_circuit:1/psf.
 compose simulator input file...
       ...successful.
 start simulator if needed...
@@ -93,8 +112,14 @@ reading simulation data...
       ...successful.
 *Info*    Client has finished evaluating ... 
 
+WARNING (OCN-6038): Results stb are not available for /home/cadence/simulation/folded_cascode/Folded_cascode_full_circuit/adexl/results/data/Interactive.74/1/folded_cascode:Folded_cascode_full_circuit:1. Use results() for a list of available results.
+WARNING (OCN-6038): Results stb are not available for /home/cadence/simulation/folded_cascode/Folded_cascode_full_circuit/adexl/results/data/Interactive.74/1/folded_cascode:Folded_cascode_full_circuit:1. Use results() for a list of available results.
+ERROR (ADEXL-2709): Evaluation of output 'Loop_gain_dB' returned 'nil' for point:'1' test:'folded_cascode:Folded_cascode_full_circuit:1'
+	Expression:'dB20(getData("loopGain" ?result "stb"))'.
+Ensure that the definition of output is correct.
 
-*Info*    Run complete for Point ID (11 1) on testbench [
+
+*Info*    Run complete for Point ID (13 1) on testbench [
           folded_cascode:Folded_cascode_full_circuit:1 ].
 
 
