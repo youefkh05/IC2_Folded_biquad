@@ -11,9 +11,9 @@
 	View         = schematic
 	Simulator    = spectre
 	State Path   = $AXL_SETUPDB_DIR/test_states
-	State Name   = folded_cascode:Folded_cascode_full_circuit:1_none_Interactive.77
-	Results DB   = /home/cadence/IC2_Folded_biquad/IC2_Folded_biquad/folded_cascode/Folded_cascode_full_circuit/adexl/results/data/Interactive.77.rdb
-	Results Dir  = /home/cadence/simulation/folded_cascode/Folded_cascode_full_circuit/adexl/results/data/Interactive.77/1/folded_cascode:Folded_cascode_full_circuit:1
+	State Name   = folded_cascode:Folded_cascode_full_circuit:1_none_Interactive.85
+	Results DB   = /home/cadence/IC2_Folded_biquad/IC2_Folded_biquad/folded_cascode/Folded_cascode_full_circuit/adexl/results/data/Interactive.85.rdb
+	Results Dir  = /home/cadence/simulation/folded_cascode/Folded_cascode_full_circuit/adexl/results/data/Interactive.85/1/folded_cascode:Folded_cascode_full_circuit:1
 	Results Loc  = /home/cadence/simulation/folded_cascode/Folded_cascode_full_circuit/adexl/results/data
 	Project Dir  = /home/cadence/simulation
 	Setup DB loc = /home/cadence/IC2_Folded_biquad/IC2_Folded_biquad/folded_cascode/Folded_cascode_full_circuit/adexl
@@ -27,7 +27,7 @@
 
 
 
-*Info*    Run start for Point ID (1 1) on testbench [
+*Info*    Run start for Point ID (2 1) on testbench [
           folded_cascode:Folded_cascode_full_circuit:1 ].
 
 Resetting statistical vars
@@ -75,51 +75,26 @@ Setting var W_in = "60u"
 Setting temp(T) = 27
 
 *Info*    Netlist Directory =
-          /home/cadence/simulation/folded_cascode/Folded_cascode_full_circuit/adexl/results/data/Interactive.77/1/folded_cascode:Folded_cascode_full_circuit:1/netlist
+          /home/cadence/simulation/folded_cascode/Folded_cascode_full_circuit/adexl/results/data/Interactive.85/1/folded_cascode:Folded_cascode_full_circuit:1/netlist
 
 
 *Info*    Data Directory    =
-          /home/cadence/simulation/folded_cascode/Folded_cascode_full_circuit/adexl/results/data/Interactive.77/1/folded_cascode:Folded_cascode_full_circuit:1
+          /home/cadence/simulation/folded_cascode/Folded_cascode_full_circuit/adexl/results/data/Interactive.85/1/folded_cascode:Folded_cascode_full_circuit:1
 
 
-*Info*    Creating Netlist for Point ID (1 1)
+*Info*    Creating Netlist for Point ID (2 1)
 
 generate netlist...
-Begin Incremental Netlisting Apr 29 09:29:14 2025
-End netlisting Apr 29 09:29:14 2025
+Begin Incremental Netlisting May  3 17:01:50 2025
+ERROR (OSSHNL-109): The cellview 'folded_cascode/Folded_cascode_full_circuit/schematic' has been modified since the last extraction. Validate
+that the schematic is correct and run Check and Save to correct this error.
 
-	The netlist is up to date.
-	Time taken to compare the design with netlist:   0.0s
-      ...successful.
-compose simulator input file...
-      ...successful.
+End netlisting May  3 17:01:50 2025
+ERROR (OSSHNL-514): Netlist generation failed because of the errors reported above. The netlist might not have been generated at all, or the generated netlist could be corrupt. Fix the reported errors and regenerate the netlist.
+      ...unsuccessful.
 
-*Info*    Running simulation on testbench [
-          folded_cascode:Folded_cascode_full_circuit:1 ] for Point ID
-          (1 1).
-
-Delete psf data in /home/cadence/simulation/folded_cascode/Folded_cascode_full_circuit/adexl/results/data/Interactive.77/1/folded_cascode:Folded_cascode_full_circuit:1/psf.
-compose simulator input file...
-      ...successful.
-start simulator if needed...
-      ...successful.
-simulate...
-To view the simulator output, right-click on the test name, result 
-name, or any value in the "Results" tab of the Outputs section and 
-choose "Output Log" menu option.
-INFO (ADE-3067): Errors encountered during simulation. For more information, right-click
-        on a test name in the 'Results' tab of the Outputs pane and choose 'Output Log'
-        to view the simulation run log.
-
-*Error*   Error ID  = 5011
-*Error*   Error Msg = Simulator failed to complete the simulation.
-
-          Error found by spectre during circuit read-in.
-Error found
-          by spectre during circuit read-in.
-ERROR (SFE-868):
-          "input.scs" 62: Unable to open input file
-          `/home/cadence/IC2_Mini_biquad/save_op'.
+*Error*   Error ID  = 5012
+*Error*   Error Msg = Failed to create netlist.
 
 
 
@@ -129,8 +104,7 @@ ERROR (SFE-868):
 
 
 
-
-*Info*    Run start for Point ID (1 1) on testbench [
+*Info*    Run start for Point ID (2 1) on testbench [
           folded_cascode:Folded_cascode_full_circuit:1 ].
 
 Resetting statistical vars
@@ -178,52 +152,26 @@ Setting var W_in = "60u"
 Setting temp(T) = 27
 
 *Info*    Netlist Directory =
-          /home/cadence/simulation/folded_cascode/Folded_cascode_full_circuit/adexl/results/data/Interactive.77/1/folded_cascode:Folded_cascode_full_circuit:1/netlist
+          /home/cadence/simulation/folded_cascode/Folded_cascode_full_circuit/adexl/results/data/Interactive.85/1/folded_cascode:Folded_cascode_full_circuit:1/netlist
 
 
 *Info*    Data Directory    =
-          /home/cadence/simulation/folded_cascode/Folded_cascode_full_circuit/adexl/results/data/Interactive.77/1/folded_cascode:Folded_cascode_full_circuit:1
+          /home/cadence/simulation/folded_cascode/Folded_cascode_full_circuit/adexl/results/data/Interactive.85/1/folded_cascode:Folded_cascode_full_circuit:1
 
 
-*Info*    Creating Netlist for Point ID (1 1)
+*Info*    Creating Netlist for Point ID (2 1)
 
 generate netlist...
-Begin Incremental Netlisting Apr 29 09:29:16 2025
-End netlisting Apr 29 09:29:16 2025
+Begin Incremental Netlisting May  3 17:01:51 2025
+ERROR (OSSHNL-109): The cellview 'folded_cascode/Folded_cascode_full_circuit/schematic' has been modified since the last extraction. Validate
+that the schematic is correct and run Check and Save to correct this error.
 
-	The netlist is up to date.
-	Time taken to compare the design with netlist:   0.0s
-      ...successful.
-compose simulator input file...
-      ...successful.
+End netlisting May  3 17:01:51 2025
+ERROR (OSSHNL-514): Netlist generation failed because of the errors reported above. The netlist might not have been generated at all, or the generated netlist could be corrupt. Fix the reported errors and regenerate the netlist.
+      ...unsuccessful.
 
-*Info*    Running simulation on testbench [
-          folded_cascode:Folded_cascode_full_circuit:1 ] for Point ID
-          (1 1).
-
-Delete psf data in /home/cadence/simulation/folded_cascode/Folded_cascode_full_circuit/adexl/results/data/Interactive.77/1/folded_cascode:Folded_cascode_full_circuit:1/psf.
-compose simulator input file...
-      ...successful.
-start simulator if needed...
-      ...successful.
-simulate...
-To view the simulator output, right-click on the test name, result 
-name, or any value in the "Results" tab of the Outputs section and 
-choose "Output Log" menu option.
-INFO (ADE-3067): Errors encountered during simulation. For more information, right-click
-        on a test name in the 'Results' tab of the Outputs pane and choose 'Output Log'
-        to view the simulation run log.
-
-*Error*   Error ID  = 5011
-*Error*   Error Msg = Simulator failed to complete the simulation.
-
-          Error found by spectre during circuit read-in.
-Error found
-          by spectre during circuit read-in.
-ERROR (SFE-868):
-          "input.scs" 62: Unable to open input file
-          `/home/cadence/IC2_Mini_biquad/save_op'.
-
+*Error*   Error ID  = 5012
+*Error*   Error Msg = Failed to create netlist.
 
 
 

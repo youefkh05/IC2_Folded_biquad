@@ -1,0 +1,7 @@
+#!/bin/sh
+cdsVncserver :80
+sleep 3
+cd /home/cadence/IC2_Folded_biquad/IC2_Folded_biquad
+virtuoso -noautostart -mpssession "virtuoso1591" -mpshost "berkeley" -davinciService "DaVinciService_1591_1746304918" -log '/home/cadence/IC2_Folded_biquad/IC2_Folded_biquad/logs_cadence/logs0/Job10.log'  -licenseLockFileName '/home/cadence/IC2_Folded_biquad/IC2_Folded_biquad/.tmp_cadence/.berkeley_1591'  -axlChildIdFlag 10 1>/dev/null  2>/dev/null 
+exit $?
+

@@ -6,11 +6,11 @@
 LockStakeVersion               1.1
 LoginName                      cadence
 HostName                       berkeley.localdomain
-ProcessIdentifier              1572
-ProcessCreationTime_UTC        1746292113
-ProcessCreationTime_Readable   Sat May  3 13:08:33 2025 EDT
+ProcessIdentifier              1591
+ProcessCreationTime_UTC        1746303552
+ProcessCreationTime_Readable   Sat May  3 16:19:12 2025 EDT
 AppIdentifier                  /usr/local/cadence/IC617/tools/dfII/bin/64bit/virtuoso
 OSType                         lnx86
 ReasonForPlacingEditLock       
 FilePathUsedToEditLock         /home/cadence/IC2_Folded_biquad/IC2_Folded_biquad/folded_cascode/Folded_cascode_full_circuit/constraint/prop.cfg
-TimeEditLocked                 Sat May  3 13:17:04 2025 EDT
+TimeEditLocked                 Sat May  3 16:42:07 2025 EDT
