@@ -7,13 +7,13 @@
 *Info*    Configuring the session ...
 
 	Library      = folded_cascode
-	Cell         = Folded_cascode_full_circuit
+	Cell         = Folded_cascode_unity_feedback
 	View         = schematic
 	Simulator    = spectre
 	State Path   = $AXL_SETUPDB_DIR/test_states
-	State Name   = folded_cascode:Folded_cascode_full_circuit:1_none_Interactive.88
-	Results DB   = /home/cadence/IC2_Folded_biquad/IC2_Folded_biquad/folded_cascode/Folded_cascode_full_circuit/adexl/results/data/Interactive.88.rdb
-	Results Dir  = /home/cadence/simulation/folded_cascode/Folded_cascode_full_circuit/adexl/results/data/Interactive.88/1/folded_cascode:Folded_cascode_full_circuit:1
+	State Name   = folded_cascode:Folded_cascode_unity_feedback:1_none_Interactive.92
+	Results DB   = /home/cadence/IC2_Folded_biquad/IC2_Folded_biquad/folded_cascode/Folded_cascode_full_circuit/adexl/results/data/Interactive.92.rdb
+	Results Dir  = /home/cadence/simulation/folded_cascode/Folded_cascode_full_circuit/adexl/results/data/Interactive.92/1/folded_cascode:Folded_cascode_unity_feedback:1
 	Results Loc  = /home/cadence/simulation/folded_cascode/Folded_cascode_full_circuit/adexl/results/data
 	Project Dir  = /home/cadence/simulation
 	Setup DB loc = /home/cadence/IC2_Folded_biquad/IC2_Folded_biquad/folded_cascode/Folded_cascode_full_circuit/adexl
@@ -27,8 +27,8 @@
 
 
 
-*Info*    Run start for Point ID (5 1) on testbench [
-          folded_cascode:Folded_cascode_full_circuit:1 ].
+*Info*    Run start for Point ID (3 1) on testbench [
+          folded_cascode:Folded_cascode_unity_feedback:1 ].
 
 Resetting statistical vars
 
@@ -75,30 +75,33 @@ Setting var W_in = "60u"
 Setting temp(T) = 27
 
 *Info*    Netlist Directory =
-          /home/cadence/simulation/folded_cascode/Folded_cascode_full_circuit/adexl/results/data/Interactive.88/1/folded_cascode:Folded_cascode_full_circuit:1/netlist
+          /home/cadence/simulation/folded_cascode/Folded_cascode_full_circuit/adexl/results/data/Interactive.92/1/folded_cascode:Folded_cascode_unity_feedback:1/netlist
 
 
 *Info*    Data Directory    =
-          /home/cadence/simulation/folded_cascode/Folded_cascode_full_circuit/adexl/results/data/Interactive.88/1/folded_cascode:Folded_cascode_full_circuit:1
+          /home/cadence/simulation/folded_cascode/Folded_cascode_full_circuit/adexl/results/data/Interactive.92/1/folded_cascode:Folded_cascode_unity_feedback:1
 
 
-*Info*    Creating Netlist for Point ID (5 1)
+*Info*    Creating Netlist for Point ID (3 1)
 
 generate netlist...
-Begin Incremental Netlisting May  3 17:03:29 2025
-End netlisting May  3 17:03:29 2025
+Begin Incremental Netlisting May  3 18:11:12 2025
+End netlisting May  3 18:11:12 2025
 
-	The netlist is up to date.
-	Time taken to compare the design with netlist:   0.0s
+Netlisting Statistics:
+	Number of components:    5
+
+	Elapsed time:          0.0s
+Errors: 0	Warnings: 0
       ...successful.
 compose simulator input file...
       ...successful.
 
 *Info*    Running simulation on testbench [
-          folded_cascode:Folded_cascode_full_circuit:1 ] for Point ID
-          (5 1).
+          folded_cascode:Folded_cascode_unity_feedback:1 ] for Point
+          ID (3 1).
 
-Delete psf data in /home/cadence/simulation/folded_cascode/Folded_cascode_full_circuit/adexl/results/data/Interactive.88/1/folded_cascode:Folded_cascode_full_circuit:1/psf.
+Delete psf data in /home/cadence/simulation/folded_cascode/Folded_cascode_full_circuit/adexl/results/data/Interactive.92/1/folded_cascode:Folded_cascode_unity_feedback:1/psf.
 compose simulator input file...
       ...successful.
 start simulator if needed...
@@ -113,8 +116,8 @@ reading simulation data...
 *Info*    Client has finished evaluating ... 
 
 
-*Info*    Run complete for Point ID (5 1) on testbench [
-          folded_cascode:Folded_cascode_full_circuit:1 ].
+*Info*    Run complete for Point ID (3 1) on testbench [
+          folded_cascode:Folded_cascode_unity_feedback:1 ].
 
 
 

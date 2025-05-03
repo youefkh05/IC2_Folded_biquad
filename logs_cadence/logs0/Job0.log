@@ -1,15 +1,15 @@
-\# Program start time UTC 2025.05.03 20:42:07.081
-\# Local time Saturday 3 May 2025, 4:42 pm
+\# Program start time UTC 2025.05.03 21:57:02.257
+\# Local time Saturday 3 May 2025, 5:57 pm
 \o Program:		@(#)$CDS: virtuoso version 6.1.7-64b 11/09/2015 12:45 (sjfnl165) $
 \o Hierarchy:		/usr/local/cadence/IC617/tools.lnx86/dfII/
 \o Sub version:		sub-version  IC6.1.7-64b.78  (64-bit addresses)
-\# Command line:	/usr/local/cadence/IC617/tools.lnx86/dfII/bin/64bit/virtuoso -noautostart -mpssession virtuoso1591 -mpshost berkeley -davinciService DaVinciService_1591_1746304918 -log /home/cadence/IC2_Folded_biquad/IC2_Folded_biquad/logs_cadence/logs0/Job0.log -licenseLockFileName /home/cadence/IC2_Folded_biquad/IC2_Folded_biquad/.tmp_cadence/.berkeley_1591 -nograph -nostdin -axlChildIdFlag 0
+\# Command line:	/usr/local/cadence/IC617/tools.lnx86/dfII/bin/64bit/virtuoso -noautostart -mpssession virtuoso4685 -mpshost berkeley -davinciService DaVinciService_4685_1746309417 -log /home/cadence/IC2_Folded_biquad/IC2_Folded_biquad/logs_cadence/logs0/Job0.log -licenseLockFileName /home/cadence/IC2_Folded_biquad/IC2_Folded_biquad/.tmp_cadence/.berkeley_4685 -nograph -nostdin -axlChildIdFlag 0
 \# Host name (type):	berkeley (x86_64)
 \# Operating system:	Linux 3.16.0-4-amd64 #1 SMP Debian 3.16.36-1+deb8u2 (2016-10-19)
 \# Linux /etc/issue:	Debian GNU/Linux 8 \n \l
 \# X display name (WxH):	berkeley:80 (1024x868)
 \# Available geometry:			TL(0:0) BR(1023:867)
-\# X server:			RealVNC Ltd (VNC nograph server, PID 1928)
+\# X server:			RealVNC Ltd (VNC nograph server, PID 4966)
 \# Depth of Visual (Root):	16 (16)
 \# Number of Planes Used:	16
 \# X version:		11.0 (vendor release 3370)
@@ -17,18 +17,18 @@
 \# 			current id 0x0, current max 0x3ffffa (4194298)
 \# Max data seg size:	     unlimited
 \# Max process size:	     unlimited
-\# Initial sbrk value:	        379 MB
-\# Available memory:	     10,720 MB
+\# Initial sbrk value:	        382 MB
+\# Available memory:	      9,920 MB
 \# System memory:	     11,541 MB
-\# Maximum memory size:	     11,242 MB
-\# Max mem available:	     10,800 MB
+\# Maximum memory size:	     11,239 MB
+\# Max mem available:	     10,000 MB
 \# Initial memory used:	         80 MB
 \#        process size:	        890 MB
 \# Qt version:		4.8.5
 \# Window Manager:	other
 \# User Name:		cadence
 \o Working Directory:	berkeley:/home/cadence/IC2_Folded_biquad/IC2_Folded_biquad
-\# Process Id:		1943
+\# Process Id:		5001
 \o 
 \o COPYRIGHT © 1992-2015  CADENCE DESIGN SYSTEMS INC.  ALL RIGHTS RESERVED.
 \o           © 1992-2015  UNIX SYSTEMS Laboratories INC.,
@@ -65,14 +65,14 @@
 \o Loading adexl.cxt 
 \o *Info*    Exporting services from client ... 
 \o 
+\# Memory report: using         194 MB, process size 1,136 MB at UTC 2025.05.03 21:57:06.162
 \o *Info*    Client has finished starting ... 
 \o 
 \p > 
 \a _treeSetOpcGUI(t)
 \r t
-\# Available memory:         10,559 MB at UTC 2025.05.03 20:42:17.467
-\# Memory report: Maximum memory size now 10,753 MB at UTC 2025.05.03 20:42:17.467
-\# Memory report: using         194 MB, process size 1,137 MB at UTC 2025.05.03 20:42:17.467
+\# Available memory:          9,795 MB at UTC 2025.05.03 21:57:14.731
+\# Memory report: Maximum memory size now 9,989 MB at UTC 2025.05.03 21:57:14.731
 \o Job 0 timed out after no activity in 300 seconds.
 \o Loading lce.cxt 
 \o 

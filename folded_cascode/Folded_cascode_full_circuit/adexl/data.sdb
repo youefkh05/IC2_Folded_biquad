@@ -96,6 +96,43 @@
 					</option>
 				</origoptions>
 			</test>
+			<test>folded_cascode:Folded_cascode_unity_feedback:1
+				<tool>ADE</tool>
+				<tooloptions>
+					<option>cell
+						<value>Folded_cascode_unity_feedback</value>
+					</option>
+					<option>lib
+						<value>folded_cascode</value>
+					</option>
+					<option>sim
+						<value>spectre</value>
+					</option>
+					<option>view
+						<value>schematic</value>
+					</option>
+					<option>path
+						<value>$AXL_SETUPDB_DIR/test_states</value>
+					</option>
+					<option>state
+						<value>folded_cascode:Folded_cascode_unity_feedback:1_active</value>
+					</option>
+				</tooloptions>
+				<origoptions>
+					<option>cell
+						<value>Folded_cascode_unity_feedback</value>
+					</option>
+					<option>lib
+						<value>folded_cascode</value>
+					</option>
+					<option>sim
+						<value>spectre</value>
+					</option>
+					<option>view
+						<value>schematic</value>
+					</option>
+				</origoptions>
+			</test>
 		</tests>
 		<vars>
 			<var>L_cascN
@@ -103,6 +140,7 @@
 				<dependentTests>
 					<dependentTest enabled="1">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
 					<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
+					<dependentTest omitted="0">folded_cascode:Folded_cascode_unity_feedback:1</dependentTest>
 				</dependentTests>
 			</var>
 			<var>L_cascp
@@ -110,6 +148,7 @@
 				<dependentTests>
 					<dependentTest enabled="1">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
 					<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
+					<dependentTest omitted="0">folded_cascode:Folded_cascode_unity_feedback:1</dependentTest>
 				</dependentTests>
 			</var>
 			<var>L_CM
@@ -117,6 +156,7 @@
 				<dependentTests>
 					<dependentTest enabled="1">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
 					<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
+					<dependentTest omitted="0">folded_cascode:Folded_cascode_unity_feedback:1</dependentTest>
 				</dependentTests>
 			</var>
 			<var>L_fold
@@ -124,6 +164,7 @@
 				<dependentTests>
 					<dependentTest enabled="1">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
 					<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
+					<dependentTest omitted="0">folded_cascode:Folded_cascode_unity_feedback:1</dependentTest>
 				</dependentTests>
 			</var>
 			<var>L_in
@@ -131,6 +172,7 @@
 				<dependentTests>
 					<dependentTest enabled="1">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
 					<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
+					<dependentTest omitted="0">folded_cascode:Folded_cascode_unity_feedback:1</dependentTest>
 				</dependentTests>
 			</var>
 			<var>VDD_AC
@@ -138,6 +180,7 @@
 				<dependentTests>
 					<dependentTest enabled="1">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
 					<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
+					<dependentTest omitted="0">folded_cascode:Folded_cascode_unity_feedback:1</dependentTest>
 				</dependentTests>
 			</var>
 			<var>VDIFF_AC
@@ -169,6 +212,7 @@
 				<dependentTests>
 					<dependentTest enabled="1">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
 					<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
+					<dependentTest omitted="0">folded_cascode:Folded_cascode_unity_feedback:1</dependentTest>
 				</dependentTests>
 			</var>
 			<var>W_cascp
@@ -176,6 +220,7 @@
 				<dependentTests>
 					<dependentTest enabled="1">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
 					<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
+					<dependentTest omitted="0">folded_cascode:Folded_cascode_unity_feedback:1</dependentTest>
 				</dependentTests>
 			</var>
 			<var>W_CM
@@ -183,6 +228,7 @@
 				<dependentTests>
 					<dependentTest enabled="1">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
 					<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
+					<dependentTest omitted="0">folded_cascode:Folded_cascode_unity_feedback:1</dependentTest>
 				</dependentTests>
 			</var>
 			<var>W_fold
@@ -190,6 +236,7 @@
 				<dependentTests>
 					<dependentTest enabled="1">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
 					<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
+					<dependentTest omitted="0">folded_cascode:Folded_cascode_unity_feedback:1</dependentTest>
 				</dependentTests>
 			</var>
 			<var>W_in
@@ -197,6 +244,7 @@
 				<dependentTests>
 					<dependentTest enabled="1">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
 					<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
+					<dependentTest omitted="0">folded_cascode:Folded_cascode_unity_feedback:1</dependentTest>
 				</dependentTests>
 			</var>
 			<var>ISS
@@ -245,6 +293,7 @@
 				<dependentTests>
 					<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
 					<dependentTest omitted="0">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
+					<dependentTest omitted="0">folded_cascode:Folded_cascode_unity_feedback:1</dependentTest>
 				</dependentTests>
 			</var>
 			<var>L_CS
@@ -252,6 +301,7 @@
 				<dependentTests>
 					<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
 					<dependentTest omitted="0">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
+					<dependentTest omitted="0">folded_cascode:Folded_cascode_unity_feedback:1</dependentTest>
 				</dependentTests>
 			</var>
 			<var>LB_CM1
@@ -259,6 +309,7 @@
 				<dependentTests>
 					<dependentTest omitted="0">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
 					<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
+					<dependentTest omitted="0">folded_cascode:Folded_cascode_unity_feedback:1</dependentTest>
 				</dependentTests>
 			</var>
 			<var>WB_CM1
@@ -266,6 +317,7 @@
 				<dependentTests>
 					<dependentTest omitted="0">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
 					<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
+					<dependentTest omitted="0">folded_cascode:Folded_cascode_unity_feedback:1</dependentTest>
 				</dependentTests>
 			</var>
 			<var>LB_VB0
@@ -273,6 +325,7 @@
 				<dependentTests>
 					<dependentTest omitted="0">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
 					<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
+					<dependentTest omitted="0">folded_cascode:Folded_cascode_unity_feedback:1</dependentTest>
 				</dependentTests>
 			</var>
 			<var>WB_VB0
@@ -280,6 +333,7 @@
 				<dependentTests>
 					<dependentTest omitted="0">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
 					<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
+					<dependentTest omitted="0">folded_cascode:Folded_cascode_unity_feedback:1</dependentTest>
 				</dependentTests>
 			</var>
 			<var>LB_VB2_CASC
@@ -287,6 +341,7 @@
 				<dependentTests>
 					<dependentTest omitted="0">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
 					<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
+					<dependentTest omitted="0">folded_cascode:Folded_cascode_unity_feedback:1</dependentTest>
 				</dependentTests>
 			</var>
 			<var>LB_VB2_CM
@@ -294,6 +349,7 @@
 				<dependentTests>
 					<dependentTest omitted="0">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
 					<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
+					<dependentTest omitted="0">folded_cascode:Folded_cascode_unity_feedback:1</dependentTest>
 				</dependentTests>
 			</var>
 			<var>WB_CM2
@@ -301,6 +357,7 @@
 				<dependentTests>
 					<dependentTest omitted="0">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
 					<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
+					<dependentTest omitted="0">folded_cascode:Folded_cascode_unity_feedback:1</dependentTest>
 				</dependentTests>
 			</var>
 			<var>WB_VB2_CASC
@@ -308,6 +365,7 @@
 				<dependentTests>
 					<dependentTest omitted="0">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
 					<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
+					<dependentTest omitted="0">folded_cascode:Folded_cascode_unity_feedback:1</dependentTest>
 				</dependentTests>
 			</var>
 			<var>WB_VB2_CM
@@ -315,6 +373,7 @@
 				<dependentTests>
 					<dependentTest omitted="0">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
 					<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
+					<dependentTest omitted="0">folded_cascode:Folded_cascode_unity_feedback:1</dependentTest>
 				</dependentTests>
 			</var>
 			<var>LB_CM3
@@ -322,6 +381,7 @@
 				<dependentTests>
 					<dependentTest omitted="0">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
 					<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
+					<dependentTest omitted="0">folded_cascode:Folded_cascode_unity_feedback:1</dependentTest>
 				</dependentTests>
 			</var>
 			<var>LB_VB3_CASC
@@ -329,6 +389,7 @@
 				<dependentTests>
 					<dependentTest omitted="0">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
 					<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
+					<dependentTest omitted="0">folded_cascode:Folded_cascode_unity_feedback:1</dependentTest>
 				</dependentTests>
 			</var>
 			<var>LB_VB3_CM
@@ -336,6 +397,7 @@
 				<dependentTests>
 					<dependentTest omitted="0">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
 					<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
+					<dependentTest omitted="0">folded_cascode:Folded_cascode_unity_feedback:1</dependentTest>
 				</dependentTests>
 			</var>
 			<var>WB_CM3
@@ -343,6 +405,7 @@
 				<dependentTests>
 					<dependentTest omitted="0">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
 					<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
+					<dependentTest omitted="0">folded_cascode:Folded_cascode_unity_feedback:1</dependentTest>
 				</dependentTests>
 			</var>
 			<var>WB_VB3_CASC
@@ -350,6 +413,7 @@
 				<dependentTests>
 					<dependentTest omitted="0">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
 					<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
+					<dependentTest omitted="0">folded_cascode:Folded_cascode_unity_feedback:1</dependentTest>
 				</dependentTests>
 			</var>
 			<var>WB_VB3_CM
@@ -357,6 +421,7 @@
 				<dependentTests>
 					<dependentTest omitted="0">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
 					<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
+					<dependentTest omitted="0">folded_cascode:Folded_cascode_unity_feedback:1</dependentTest>
 				</dependentTests>
 			</var>
 		</vars>
@@ -374,1573 +439,10 @@
 		</plottingoptions>
 		<disabledtests>
 			<test>folded_cascode:Closed_Loop_TB:1</test>
+			<test>folded_cascode:Folded_cascode_full_circuit:1</test>
 		</disabledtests>
 	</active>
 	<history>History
-		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.79
-			<checkpoint>
-				<corners>
-					<corner enabled="1">_default</corner>
-				</corners>
-				<extensions>
-					<extension>Parasitics
-						<callback>_parSetupDBExtensionCB</callback>
-						<iconvalue></iconvalue>
-						<icontype></icontype>
-					</extension>
-				</extensions>
-				<currentmode>Single Run, Sweeps and Corners</currentmode>
-				<overwritehistory>0</overwritehistory>
-				<tests>
-					<test enabled="1">folded_cascode:Folded_cascode_full_circuit:1
-						<tool>ADE</tool>
-						<tooloptions>
-							<option>cell
-								<value>Folded_cascode_full_circuit</value>
-							</option>
-							<option>lib
-								<value>folded_cascode</value>
-							</option>
-							<option>sim
-								<value>spectre</value>
-							</option>
-							<option>view
-								<value>schematic</value>
-							</option>
-							<option>path
-								<value>$AXL_SETUPDB_DIR/test_states</value>
-							</option>
-							<option>state
-								<value>folded_cascode:Folded_cascode_full_circuit:1_none_Interactive.79</value>
-							</option>
-						</tooloptions>
-						<origoptions>
-							<option>cell
-								<value>Folded_cascode_full_circuit</value>
-							</option>
-							<option>lib
-								<value>folded_cascode</value>
-							</option>
-							<option>sim
-								<value>spectre</value>
-							</option>
-							<option>view
-								<value>schematic</value>
-							</option>
-						</origoptions>
-					</test>
-					<test enabled="1">folded_cascode:Closed_Loop_TB:1
-						<tool>ADE</tool>
-						<tooloptions>
-							<option>cell
-								<value>Closed_Loop_TB</value>
-							</option>
-							<option>lib
-								<value>folded_cascode</value>
-							</option>
-							<option>sim
-								<value>spectre</value>
-							</option>
-							<option>view
-								<value>schematic</value>
-							</option>
-							<option>path
-								<value>$AXL_SETUPDB_DIR/test_states</value>
-							</option>
-							<option>state
-								<value>folded_cascode:Closed_Loop_TB:1_none_Interactive.79</value>
-							</option>
-						</tooloptions>
-						<origoptions>
-							<option>cell
-								<value>Closed_Loop_TB</value>
-							</option>
-							<option>lib
-								<value>folded_cascode</value>
-							</option>
-							<option>sim
-								<value>spectre</value>
-							</option>
-							<option>view
-								<value>schematic</value>
-							</option>
-						</origoptions>
-					</test>
-				</tests>
-				<vars>
-					<var>L_cascN
-						<value>500n</value>
-						<dependentTests>
-							<dependentTest enabled="1">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
-							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
-						</dependentTests>
-					</var>
-					<var>L_cascp
-						<value>400n</value>
-						<dependentTests>
-							<dependentTest enabled="1">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
-							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
-						</dependentTests>
-					</var>
-					<var>L_CM
-						<value>500n</value>
-						<dependentTests>
-							<dependentTest enabled="1">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
-							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
-						</dependentTests>
-					</var>
-					<var>L_fold
-						<value>400n</value>
-						<dependentTests>
-							<dependentTest enabled="1">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
-							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
-						</dependentTests>
-					</var>
-					<var>L_in
-						<value>500n</value>
-						<dependentTests>
-							<dependentTest enabled="1">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
-							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
-						</dependentTests>
-					</var>
-					<var>VDD_AC
-						<value>0</value>
-						<dependentTests>
-							<dependentTest enabled="1">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
-							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
-						</dependentTests>
-					</var>
-					<var>VDIFF_AC
-						<value>1</value>
-						<dependentTests>
-							<dependentTest enabled="1">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
-						</dependentTests>
-					</var>
-					<var>VDIFF_DC
-						<value>0</value>
-						<dependentTests>
-							<dependentTest enabled="1">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
-						</dependentTests>
-					</var>
-					<var>VINCM_AC
-						<value>0</value>
-						<dependentTests>
-							<dependentTest enabled="1">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
-						</dependentTests>
-					</var>
-					<var>VINCM_DC
-						<value>1.65</value>
-						<dependentTests>
-							<dependentTest enabled="1">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
-						</dependentTests>
-					</var>
-					<var>W_cascN
-						<value>10.15u</value>
-						<dependentTests>
-							<dependentTest enabled="1">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
-							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
-						</dependentTests>
-					</var>
-					<var>W_cascp
-						<value>10u</value>
-						<dependentTests>
-							<dependentTest enabled="1">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
-							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
-						</dependentTests>
-					</var>
-					<var>W_CM
-						<value>1.25u</value>
-						<dependentTests>
-							<dependentTest enabled="1">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
-							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
-						</dependentTests>
-					</var>
-					<var>W_fold
-						<value>28.36u</value>
-						<dependentTests>
-							<dependentTest enabled="1">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
-							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
-						</dependentTests>
-					</var>
-					<var>W_in
-						<value>60u</value>
-						<dependentTests>
-							<dependentTest enabled="1">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
-							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
-						</dependentTests>
-					</var>
-					<var>ISS
-						<value>130u</value>
-						<dependentTests>
-							<dependentTest enabled="1">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
-							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
-						</dependentTests>
-					</var>
-					<var>Vb1
-						<value>2.54</value>
-						<dependentTests>
-							<dependentTest enabled="1">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
-							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
-						</dependentTests>
-					</var>
-					<var>Vb2
-						<value>1.94</value>
-						<dependentTests>
-							<dependentTest enabled="1">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
-							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
-						</dependentTests>
-					</var>
-					<var>Vb3
-						<value>1.35</value>
-						<dependentTests>
-							<dependentTest enabled="1">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
-							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
-						</dependentTests>
-					</var>
-					<var>VIN_DC
-						<value>1.65</value>
-						<dependentTests>
-							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
-						</dependentTests>
-					</var>
-					<var>Vb0
-						<value>650m</value>
-						<dependentTests>
-							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
-							<dependentTest omitted="0">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
-						</dependentTests>
-					</var>
-					<var>W_CS
-						<value>110u</value>
-						<dependentTests>
-							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
-							<dependentTest omitted="0">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
-						</dependentTests>
-					</var>
-					<var>L_CS
-						<value>1u</value>
-						<dependentTests>
-							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
-							<dependentTest omitted="0">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
-						</dependentTests>
-					</var>
-					<var>LB_CM1
-						<value>400n</value>
-						<dependentTests>
-							<dependentTest omitted="0">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
-							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
-						</dependentTests>
-					</var>
-					<var>WB_CM1
-						<value>5.9u</value>
-						<dependentTests>
-							<dependentTest omitted="0">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
-							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
-						</dependentTests>
-					</var>
-					<var>LB_VB0
-						<value>1u</value>
-						<dependentTests>
-							<dependentTest omitted="0">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
-							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
-						</dependentTests>
-					</var>
-					<var>WB_VB0
-						<value>28.7u</value>
-						<dependentTests>
-							<dependentTest omitted="0">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
-							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
-						</dependentTests>
-					</var>
-					<var>LB_VB2_CASC
-						<value>400n</value>
-						<dependentTests>
-							<dependentTest omitted="0">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
-							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
-						</dependentTests>
-					</var>
-					<var>LB_VB2_CM
-						<value>1u</value>
-						<dependentTests>
-							<dependentTest omitted="0">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
-							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
-						</dependentTests>
-					</var>
-					<var>WB_CM2
-						<value>WB_VB0/2</value>
-						<dependentTests>
-							<dependentTest omitted="0">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
-							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
-						</dependentTests>
-					</var>
-					<var>WB_VB2_CASC
-						<value>4.2u</value>
-						<dependentTests>
-							<dependentTest omitted="0">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
-							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
-						</dependentTests>
-					</var>
-					<var>WB_VB2_CM
-						<value>1.21u</value>
-						<dependentTests>
-							<dependentTest omitted="0">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
-							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
-						</dependentTests>
-					</var>
-					<var>LB_CM3
-						<value>400n</value>
-						<dependentTests>
-							<dependentTest omitted="0">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
-							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
-						</dependentTests>
-					</var>
-					<var>LB_VB3_CASC
-						<value>500n</value>
-						<dependentTests>
-							<dependentTest omitted="0">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
-							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
-						</dependentTests>
-					</var>
-					<var>LB_VB3_CM
-						<value>1u</value>
-						<dependentTests>
-							<dependentTest omitted="0">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
-							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
-						</dependentTests>
-					</var>
-					<var>WB_CM3
-						<value>WB_VB0/2/2</value>
-						<dependentTests>
-							<dependentTest omitted="0">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
-							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
-						</dependentTests>
-					</var>
-					<var>WB_VB3_CASC
-						<value>27.61u/2</value>
-						<dependentTests>
-							<dependentTest omitted="0">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
-							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
-						</dependentTests>
-					</var>
-					<var>WB_VB3_CM
-						<value>740n</value>
-						<dependentTests>
-							<dependentTest omitted="0">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
-							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
-						</dependentTests>
-					</var>
-				</vars>
-				<overwritehistoryname>Interactive.0</overwritehistoryname>
-				<plottingoptions>
-					<plottingoption>plottype
-						<value>None</value>
-					</plottingoption>
-					<plottingoption>usewaveformtemplate
-						<value>no</value>
-					</plottingoption>
-					<plottingoption>waveformtemplate
-						<value></value>
-					</plottingoption>
-				</plottingoptions>
-				<disabledtests>
-					<test>folded_cascode:Closed_Loop_TB:1</test>
-				</disabledtests>
-				<sortVariableValues>0</sortVariableValues>
-			</checkpoint>
-			<timestamp>Sat May 3 13:38:01 2025</timestamp>
-			<resultsname>/home/cadence/IC2_Folded_biquad/IC2_Folded_biquad/folded_cascode/Folded_cascode_full_circuit/adexl/results/data/Interactive.79.rdb</resultsname>
-			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.79.rdb</simresults>
-			<rawdatadelstrategy>SaveAll</rawdatadelstrategy>
-			<netlistdelstrategy>SaveAll</netlistdelstrategy>
-			<uselocalpsfdir>false</uselocalpsfdir>
-			<localpsfdir>/tmp/berkeley_cadence_133801337</localpsfdir>
-			<psfdir>/home/cadence/simulation/folded_cascode/Folded_cascode_full_circuit/adexl/results/data/Interactive.79</psfdir>
-			<simdir>$AXL_PROJECT_DIR/folded_cascode/Folded_cascode_full_circuit/adexl/results/data/Interactive.79</simdir>
-			<gendatasheetplotsonsimulation>1</gendatasheetplotsonsimulation>
-			<runlog>/home/cadence/IC2_Folded_biquad/IC2_Folded_biquad/folded_cascode/Folded_cascode_full_circuit/adexl/results/data/Interactive.79.log</runlog>
-			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.79.log</runlogfile>
-			<schematicpoint></schematicpoint>
-			<test>all</test>
-		</historyentry>
-		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.80
-			<checkpoint>
-				<corners>
-					<corner enabled="1">_default</corner>
-				</corners>
-				<extensions>
-					<extension>Parasitics
-						<callback>_parSetupDBExtensionCB</callback>
-						<iconvalue></iconvalue>
-						<icontype></icontype>
-					</extension>
-				</extensions>
-				<currentmode>Single Run, Sweeps and Corners</currentmode>
-				<overwritehistory>0</overwritehistory>
-				<tests>
-					<test enabled="1">folded_cascode:Folded_cascode_full_circuit:1
-						<tool>ADE</tool>
-						<tooloptions>
-							<option>cell
-								<value>Folded_cascode_full_circuit</value>
-							</option>
-							<option>lib
-								<value>folded_cascode</value>
-							</option>
-							<option>sim
-								<value>spectre</value>
-							</option>
-							<option>view
-								<value>schematic</value>
-							</option>
-							<option>path
-								<value>$AXL_SETUPDB_DIR/test_states</value>
-							</option>
-							<option>state
-								<value>folded_cascode:Folded_cascode_full_circuit:1_none_Interactive.80</value>
-							</option>
-						</tooloptions>
-						<origoptions>
-							<option>cell
-								<value>Folded_cascode_full_circuit</value>
-							</option>
-							<option>lib
-								<value>folded_cascode</value>
-							</option>
-							<option>sim
-								<value>spectre</value>
-							</option>
-							<option>view
-								<value>schematic</value>
-							</option>
-						</origoptions>
-						<outputs>
-							<output>V_out_dB
-								<evalType>point</evalType>
-							</output>
-							<output>GBW
-								<evalType>point</evalType>
-							</output>
-						</outputs>
-					</test>
-					<test enabled="1">folded_cascode:Closed_Loop_TB:1
-						<tool>ADE</tool>
-						<tooloptions>
-							<option>cell
-								<value>Closed_Loop_TB</value>
-							</option>
-							<option>lib
-								<value>folded_cascode</value>
-							</option>
-							<option>sim
-								<value>spectre</value>
-							</option>
-							<option>view
-								<value>schematic</value>
-							</option>
-							<option>path
-								<value>$AXL_SETUPDB_DIR/test_states</value>
-							</option>
-							<option>state
-								<value>folded_cascode:Closed_Loop_TB:1_none_Interactive.80</value>
-							</option>
-						</tooloptions>
-						<origoptions>
-							<option>cell
-								<value>Closed_Loop_TB</value>
-							</option>
-							<option>lib
-								<value>folded_cascode</value>
-							</option>
-							<option>sim
-								<value>spectre</value>
-							</option>
-							<option>view
-								<value>schematic</value>
-							</option>
-						</origoptions>
-					</test>
-				</tests>
-				<vars>
-					<var>L_cascN
-						<value>500n</value>
-						<dependentTests>
-							<dependentTest enabled="1">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
-							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
-						</dependentTests>
-					</var>
-					<var>L_cascp
-						<value>400n</value>
-						<dependentTests>
-							<dependentTest enabled="1">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
-							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
-						</dependentTests>
-					</var>
-					<var>L_CM
-						<value>500n</value>
-						<dependentTests>
-							<dependentTest enabled="1">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
-							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
-						</dependentTests>
-					</var>
-					<var>L_fold
-						<value>400n</value>
-						<dependentTests>
-							<dependentTest enabled="1">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
-							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
-						</dependentTests>
-					</var>
-					<var>L_in
-						<value>500n</value>
-						<dependentTests>
-							<dependentTest enabled="1">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
-							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
-						</dependentTests>
-					</var>
-					<var>VDD_AC
-						<value>0</value>
-						<dependentTests>
-							<dependentTest enabled="1">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
-							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
-						</dependentTests>
-					</var>
-					<var>VDIFF_AC
-						<value>1</value>
-						<dependentTests>
-							<dependentTest enabled="1">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
-						</dependentTests>
-					</var>
-					<var>VDIFF_DC
-						<value>0</value>
-						<dependentTests>
-							<dependentTest enabled="1">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
-						</dependentTests>
-					</var>
-					<var>VINCM_AC
-						<value>0</value>
-						<dependentTests>
-							<dependentTest enabled="1">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
-						</dependentTests>
-					</var>
-					<var>VINCM_DC
-						<value>1.65</value>
-						<dependentTests>
-							<dependentTest enabled="1">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
-						</dependentTests>
-					</var>
-					<var>W_cascN
-						<value>10.15u</value>
-						<dependentTests>
-							<dependentTest enabled="1">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
-							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
-						</dependentTests>
-					</var>
-					<var>W_cascp
-						<value>10u</value>
-						<dependentTests>
-							<dependentTest enabled="1">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
-							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
-						</dependentTests>
-					</var>
-					<var>W_CM
-						<value>1.25u</value>
-						<dependentTests>
-							<dependentTest enabled="1">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
-							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
-						</dependentTests>
-					</var>
-					<var>W_fold
-						<value>28.36u</value>
-						<dependentTests>
-							<dependentTest enabled="1">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
-							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
-						</dependentTests>
-					</var>
-					<var>W_in
-						<value>60u</value>
-						<dependentTests>
-							<dependentTest enabled="1">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
-							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
-						</dependentTests>
-					</var>
-					<var>ISS
-						<value>130u</value>
-						<dependentTests>
-							<dependentTest enabled="1">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
-							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
-						</dependentTests>
-					</var>
-					<var>Vb1
-						<value>2.54</value>
-						<dependentTests>
-							<dependentTest enabled="1">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
-							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
-						</dependentTests>
-					</var>
-					<var>Vb2
-						<value>1.94</value>
-						<dependentTests>
-							<dependentTest enabled="1">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
-							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
-						</dependentTests>
-					</var>
-					<var>Vb3
-						<value>1.35</value>
-						<dependentTests>
-							<dependentTest enabled="1">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
-							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
-						</dependentTests>
-					</var>
-					<var>VIN_DC
-						<value>1.65</value>
-						<dependentTests>
-							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
-						</dependentTests>
-					</var>
-					<var>Vb0
-						<value>650m</value>
-						<dependentTests>
-							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
-							<dependentTest omitted="0">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
-						</dependentTests>
-					</var>
-					<var>W_CS
-						<value>110u</value>
-						<dependentTests>
-							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
-							<dependentTest omitted="0">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
-						</dependentTests>
-					</var>
-					<var>L_CS
-						<value>1u</value>
-						<dependentTests>
-							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
-							<dependentTest omitted="0">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
-						</dependentTests>
-					</var>
-					<var>LB_CM1
-						<value>400n</value>
-						<dependentTests>
-							<dependentTest omitted="0">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
-							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
-						</dependentTests>
-					</var>
-					<var>WB_CM1
-						<value>5.9u</value>
-						<dependentTests>
-							<dependentTest omitted="0">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
-							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
-						</dependentTests>
-					</var>
-					<var>LB_VB0
-						<value>1u</value>
-						<dependentTests>
-							<dependentTest omitted="0">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
-							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
-						</dependentTests>
-					</var>
-					<var>WB_VB0
-						<value>28.7u</value>
-						<dependentTests>
-							<dependentTest omitted="0">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
-							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
-						</dependentTests>
-					</var>
-					<var>LB_VB2_CASC
-						<value>400n</value>
-						<dependentTests>
-							<dependentTest omitted="0">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
-							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
-						</dependentTests>
-					</var>
-					<var>LB_VB2_CM
-						<value>1u</value>
-						<dependentTests>
-							<dependentTest omitted="0">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
-							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
-						</dependentTests>
-					</var>
-					<var>WB_CM2
-						<value>WB_VB0/2</value>
-						<dependentTests>
-							<dependentTest omitted="0">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
-							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
-						</dependentTests>
-					</var>
-					<var>WB_VB2_CASC
-						<value>4.2u</value>
-						<dependentTests>
-							<dependentTest omitted="0">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
-							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
-						</dependentTests>
-					</var>
-					<var>WB_VB2_CM
-						<value>1.21u</value>
-						<dependentTests>
-							<dependentTest omitted="0">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
-							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
-						</dependentTests>
-					</var>
-					<var>LB_CM3
-						<value>400n</value>
-						<dependentTests>
-							<dependentTest omitted="0">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
-							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
-						</dependentTests>
-					</var>
-					<var>LB_VB3_CASC
-						<value>500n</value>
-						<dependentTests>
-							<dependentTest omitted="0">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
-							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
-						</dependentTests>
-					</var>
-					<var>LB_VB3_CM
-						<value>1u</value>
-						<dependentTests>
-							<dependentTest omitted="0">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
-							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
-						</dependentTests>
-					</var>
-					<var>WB_CM3
-						<value>WB_VB0/2/2</value>
-						<dependentTests>
-							<dependentTest omitted="0">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
-							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
-						</dependentTests>
-					</var>
-					<var>WB_VB3_CASC
-						<value>27.61u/2</value>
-						<dependentTests>
-							<dependentTest omitted="0">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
-							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
-						</dependentTests>
-					</var>
-					<var>WB_VB3_CM
-						<value>740n</value>
-						<dependentTests>
-							<dependentTest omitted="0">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
-							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
-						</dependentTests>
-					</var>
-				</vars>
-				<overwritehistoryname>Interactive.0</overwritehistoryname>
-				<plottingoptions>
-					<plottingoption>plottype
-						<value>None</value>
-					</plottingoption>
-					<plottingoption>usewaveformtemplate
-						<value>no</value>
-					</plottingoption>
-					<plottingoption>waveformtemplate
-						<value></value>
-					</plottingoption>
-				</plottingoptions>
-				<disabledtests>
-					<test>folded_cascode:Closed_Loop_TB:1</test>
-				</disabledtests>
-				<sortVariableValues>0</sortVariableValues>
-			</checkpoint>
-			<timestamp>Sat May 3 13:39:55 2025</timestamp>
-			<resultsname>/home/cadence/IC2_Folded_biquad/IC2_Folded_biquad/folded_cascode/Folded_cascode_full_circuit/adexl/results/data/Interactive.80.rdb</resultsname>
-			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.80.rdb</simresults>
-			<rawdatadelstrategy>SaveAll</rawdatadelstrategy>
-			<netlistdelstrategy>SaveAll</netlistdelstrategy>
-			<uselocalpsfdir>false</uselocalpsfdir>
-			<localpsfdir>/tmp/berkeley_cadence_133955738</localpsfdir>
-			<psfdir>/home/cadence/simulation/folded_cascode/Folded_cascode_full_circuit/adexl/results/data/Interactive.80</psfdir>
-			<simdir>$AXL_PROJECT_DIR/folded_cascode/Folded_cascode_full_circuit/adexl/results/data/Interactive.80</simdir>
-			<gendatasheetplotsonsimulation>1</gendatasheetplotsonsimulation>
-			<runlog>/home/cadence/IC2_Folded_biquad/IC2_Folded_biquad/folded_cascode/Folded_cascode_full_circuit/adexl/results/data/Interactive.80.log</runlog>
-			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.80.log</runlogfile>
-			<schematicpoint></schematicpoint>
-			<test>all</test>
-		</historyentry>
-		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.81
-			<checkpoint>
-				<corners>
-					<corner enabled="1">_default</corner>
-				</corners>
-				<extensions>
-					<extension>Parasitics
-						<callback>_parSetupDBExtensionCB</callback>
-						<iconvalue></iconvalue>
-						<icontype></icontype>
-					</extension>
-				</extensions>
-				<currentmode>Single Run, Sweeps and Corners</currentmode>
-				<overwritehistory>0</overwritehistory>
-				<tests>
-					<test enabled="1">folded_cascode:Folded_cascode_full_circuit:1
-						<tool>ADE</tool>
-						<tooloptions>
-							<option>cell
-								<value>Folded_cascode_full_circuit</value>
-							</option>
-							<option>lib
-								<value>folded_cascode</value>
-							</option>
-							<option>sim
-								<value>spectre</value>
-							</option>
-							<option>view
-								<value>schematic</value>
-							</option>
-							<option>path
-								<value>$AXL_SETUPDB_DIR/test_states</value>
-							</option>
-							<option>state
-								<value>folded_cascode:Folded_cascode_full_circuit:1_none_Interactive.81</value>
-							</option>
-						</tooloptions>
-						<origoptions>
-							<option>cell
-								<value>Folded_cascode_full_circuit</value>
-							</option>
-							<option>lib
-								<value>folded_cascode</value>
-							</option>
-							<option>sim
-								<value>spectre</value>
-							</option>
-							<option>view
-								<value>schematic</value>
-							</option>
-						</origoptions>
-						<outputs>
-							<output>V_out_dB
-								<evalType>point</evalType>
-							</output>
-							<output>GBW
-								<evalType>point</evalType>
-							</output>
-						</outputs>
-					</test>
-					<test enabled="1">folded_cascode:Closed_Loop_TB:1
-						<tool>ADE</tool>
-						<tooloptions>
-							<option>cell
-								<value>Closed_Loop_TB</value>
-							</option>
-							<option>lib
-								<value>folded_cascode</value>
-							</option>
-							<option>sim
-								<value>spectre</value>
-							</option>
-							<option>view
-								<value>schematic</value>
-							</option>
-							<option>path
-								<value>$AXL_SETUPDB_DIR/test_states</value>
-							</option>
-							<option>state
-								<value>folded_cascode:Closed_Loop_TB:1_none_Interactive.81</value>
-							</option>
-						</tooloptions>
-						<origoptions>
-							<option>cell
-								<value>Closed_Loop_TB</value>
-							</option>
-							<option>lib
-								<value>folded_cascode</value>
-							</option>
-							<option>sim
-								<value>spectre</value>
-							</option>
-							<option>view
-								<value>schematic</value>
-							</option>
-						</origoptions>
-					</test>
-				</tests>
-				<vars>
-					<var>L_cascN
-						<value>500n</value>
-						<dependentTests>
-							<dependentTest enabled="1">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
-							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
-						</dependentTests>
-					</var>
-					<var>L_cascp
-						<value>400n</value>
-						<dependentTests>
-							<dependentTest enabled="1">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
-							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
-						</dependentTests>
-					</var>
-					<var>L_CM
-						<value>500n</value>
-						<dependentTests>
-							<dependentTest enabled="1">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
-							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
-						</dependentTests>
-					</var>
-					<var>L_fold
-						<value>400n</value>
-						<dependentTests>
-							<dependentTest enabled="1">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
-							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
-						</dependentTests>
-					</var>
-					<var>L_in
-						<value>500n</value>
-						<dependentTests>
-							<dependentTest enabled="1">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
-							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
-						</dependentTests>
-					</var>
-					<var>VDD_AC
-						<value>0</value>
-						<dependentTests>
-							<dependentTest enabled="1">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
-							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
-						</dependentTests>
-					</var>
-					<var>VDIFF_AC
-						<value>1</value>
-						<dependentTests>
-							<dependentTest enabled="1">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
-						</dependentTests>
-					</var>
-					<var>VDIFF_DC
-						<value>0</value>
-						<dependentTests>
-							<dependentTest enabled="1">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
-						</dependentTests>
-					</var>
-					<var>VINCM_AC
-						<value>0</value>
-						<dependentTests>
-							<dependentTest enabled="1">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
-						</dependentTests>
-					</var>
-					<var>VINCM_DC
-						<value>1.65</value>
-						<dependentTests>
-							<dependentTest enabled="1">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
-						</dependentTests>
-					</var>
-					<var>W_cascN
-						<value>10.15u</value>
-						<dependentTests>
-							<dependentTest enabled="1">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
-							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
-						</dependentTests>
-					</var>
-					<var>W_cascp
-						<value>10u</value>
-						<dependentTests>
-							<dependentTest enabled="1">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
-							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
-						</dependentTests>
-					</var>
-					<var>W_CM
-						<value>1.25u</value>
-						<dependentTests>
-							<dependentTest enabled="1">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
-							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
-						</dependentTests>
-					</var>
-					<var>W_fold
-						<value>28.36u</value>
-						<dependentTests>
-							<dependentTest enabled="1">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
-							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
-						</dependentTests>
-					</var>
-					<var>W_in
-						<value>60u</value>
-						<dependentTests>
-							<dependentTest enabled="1">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
-							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
-						</dependentTests>
-					</var>
-					<var>ISS
-						<value>130u</value>
-						<dependentTests>
-							<dependentTest enabled="1">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
-							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
-						</dependentTests>
-					</var>
-					<var>Vb1
-						<value>2.54</value>
-						<dependentTests>
-							<dependentTest enabled="1">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
-							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
-						</dependentTests>
-					</var>
-					<var>Vb2
-						<value>1.94</value>
-						<dependentTests>
-							<dependentTest enabled="1">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
-							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
-						</dependentTests>
-					</var>
-					<var>Vb3
-						<value>1.35</value>
-						<dependentTests>
-							<dependentTest enabled="1">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
-							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
-						</dependentTests>
-					</var>
-					<var>VIN_DC
-						<value>1.65</value>
-						<dependentTests>
-							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
-						</dependentTests>
-					</var>
-					<var>Vb0
-						<value>650m</value>
-						<dependentTests>
-							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
-							<dependentTest omitted="0">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
-						</dependentTests>
-					</var>
-					<var>W_CS
-						<value>110u</value>
-						<dependentTests>
-							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
-							<dependentTest omitted="0">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
-						</dependentTests>
-					</var>
-					<var>L_CS
-						<value>1u</value>
-						<dependentTests>
-							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
-							<dependentTest omitted="0">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
-						</dependentTests>
-					</var>
-					<var>LB_CM1
-						<value>400n</value>
-						<dependentTests>
-							<dependentTest omitted="0">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
-							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
-						</dependentTests>
-					</var>
-					<var>WB_CM1
-						<value>5.9u</value>
-						<dependentTests>
-							<dependentTest omitted="0">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
-							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
-						</dependentTests>
-					</var>
-					<var>LB_VB0
-						<value>1u</value>
-						<dependentTests>
-							<dependentTest omitted="0">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
-							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
-						</dependentTests>
-					</var>
-					<var>WB_VB0
-						<value>28.7u</value>
-						<dependentTests>
-							<dependentTest omitted="0">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
-							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
-						</dependentTests>
-					</var>
-					<var>LB_VB2_CASC
-						<value>400n</value>
-						<dependentTests>
-							<dependentTest omitted="0">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
-							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
-						</dependentTests>
-					</var>
-					<var>LB_VB2_CM
-						<value>1u</value>
-						<dependentTests>
-							<dependentTest omitted="0">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
-							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
-						</dependentTests>
-					</var>
-					<var>WB_CM2
-						<value>WB_VB0/2</value>
-						<dependentTests>
-							<dependentTest omitted="0">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
-							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
-						</dependentTests>
-					</var>
-					<var>WB_VB2_CASC
-						<value>4.2u</value>
-						<dependentTests>
-							<dependentTest omitted="0">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
-							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
-						</dependentTests>
-					</var>
-					<var>WB_VB2_CM
-						<value>1.21u</value>
-						<dependentTests>
-							<dependentTest omitted="0">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
-							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
-						</dependentTests>
-					</var>
-					<var>LB_CM3
-						<value>400n</value>
-						<dependentTests>
-							<dependentTest omitted="0">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
-							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
-						</dependentTests>
-					</var>
-					<var>LB_VB3_CASC
-						<value>500n</value>
-						<dependentTests>
-							<dependentTest omitted="0">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
-							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
-						</dependentTests>
-					</var>
-					<var>LB_VB3_CM
-						<value>1u</value>
-						<dependentTests>
-							<dependentTest omitted="0">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
-							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
-						</dependentTests>
-					</var>
-					<var>WB_CM3
-						<value>WB_VB0/2/2</value>
-						<dependentTests>
-							<dependentTest omitted="0">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
-							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
-						</dependentTests>
-					</var>
-					<var>WB_VB3_CASC
-						<value>27.61u/2</value>
-						<dependentTests>
-							<dependentTest omitted="0">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
-							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
-						</dependentTests>
-					</var>
-					<var>WB_VB3_CM
-						<value>740n</value>
-						<dependentTests>
-							<dependentTest omitted="0">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
-							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
-						</dependentTests>
-					</var>
-				</vars>
-				<overwritehistoryname>Interactive.0</overwritehistoryname>
-				<plottingoptions>
-					<plottingoption>plottype
-						<value>None</value>
-					</plottingoption>
-					<plottingoption>usewaveformtemplate
-						<value>no</value>
-					</plottingoption>
-					<plottingoption>waveformtemplate
-						<value></value>
-					</plottingoption>
-				</plottingoptions>
-				<disabledtests>
-					<test>folded_cascode:Closed_Loop_TB:1</test>
-				</disabledtests>
-				<sortVariableValues>0</sortVariableValues>
-			</checkpoint>
-			<timestamp>Sat May 3 13:49:12 2025</timestamp>
-			<resultsname>/home/cadence/IC2_Folded_biquad/IC2_Folded_biquad/folded_cascode/Folded_cascode_full_circuit/adexl/results/data/Interactive.81.rdb</resultsname>
-			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.81.rdb</simresults>
-			<rawdatadelstrategy>SaveAll</rawdatadelstrategy>
-			<netlistdelstrategy>SaveAll</netlistdelstrategy>
-			<uselocalpsfdir>false</uselocalpsfdir>
-			<localpsfdir>/tmp/berkeley_cadence_134912397</localpsfdir>
-			<psfdir>/home/cadence/simulation/folded_cascode/Folded_cascode_full_circuit/adexl/results/data/Interactive.81</psfdir>
-			<simdir>$AXL_PROJECT_DIR/folded_cascode/Folded_cascode_full_circuit/adexl/results/data/Interactive.81</simdir>
-			<gendatasheetplotsonsimulation>1</gendatasheetplotsonsimulation>
-			<runlog>/home/cadence/IC2_Folded_biquad/IC2_Folded_biquad/folded_cascode/Folded_cascode_full_circuit/adexl/results/data/Interactive.81.log</runlog>
-			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.81.log</runlogfile>
-			<schematicpoint></schematicpoint>
-			<test>all</test>
-		</historyentry>
-		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.82
-			<checkpoint>
-				<corners>
-					<corner enabled="1">_default</corner>
-				</corners>
-				<extensions>
-					<extension>Parasitics
-						<callback>_parSetupDBExtensionCB</callback>
-						<iconvalue></iconvalue>
-						<icontype></icontype>
-					</extension>
-				</extensions>
-				<currentmode>Single Run, Sweeps and Corners</currentmode>
-				<overwritehistory>0</overwritehistory>
-				<tests>
-					<test enabled="1">folded_cascode:Folded_cascode_full_circuit:1
-						<tool>ADE</tool>
-						<tooloptions>
-							<option>cell
-								<value>Folded_cascode_full_circuit</value>
-							</option>
-							<option>lib
-								<value>folded_cascode</value>
-							</option>
-							<option>sim
-								<value>spectre</value>
-							</option>
-							<option>view
-								<value>schematic</value>
-							</option>
-							<option>path
-								<value>$AXL_SETUPDB_DIR/test_states</value>
-							</option>
-							<option>state
-								<value>folded_cascode:Folded_cascode_full_circuit:1_none_Interactive.82</value>
-							</option>
-						</tooloptions>
-						<origoptions>
-							<option>cell
-								<value>Folded_cascode_full_circuit</value>
-							</option>
-							<option>lib
-								<value>folded_cascode</value>
-							</option>
-							<option>sim
-								<value>spectre</value>
-							</option>
-							<option>view
-								<value>schematic</value>
-							</option>
-						</origoptions>
-						<outputs>
-							<output>V_out_dB
-								<evalType>point</evalType>
-							</output>
-							<output>GBW
-								<evalType>point</evalType>
-							</output>
-						</outputs>
-					</test>
-					<test enabled="1">folded_cascode:Closed_Loop_TB:1
-						<tool>ADE</tool>
-						<tooloptions>
-							<option>cell
-								<value>Closed_Loop_TB</value>
-							</option>
-							<option>lib
-								<value>folded_cascode</value>
-							</option>
-							<option>sim
-								<value>spectre</value>
-							</option>
-							<option>view
-								<value>schematic</value>
-							</option>
-							<option>path
-								<value>$AXL_SETUPDB_DIR/test_states</value>
-							</option>
-							<option>state
-								<value>folded_cascode:Closed_Loop_TB:1_none_Interactive.82</value>
-							</option>
-						</tooloptions>
-						<origoptions>
-							<option>cell
-								<value>Closed_Loop_TB</value>
-							</option>
-							<option>lib
-								<value>folded_cascode</value>
-							</option>
-							<option>sim
-								<value>spectre</value>
-							</option>
-							<option>view
-								<value>schematic</value>
-							</option>
-						</origoptions>
-					</test>
-				</tests>
-				<vars>
-					<var>L_cascN
-						<value>500n</value>
-						<dependentTests>
-							<dependentTest enabled="1">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
-							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
-						</dependentTests>
-					</var>
-					<var>L_cascp
-						<value>400n</value>
-						<dependentTests>
-							<dependentTest enabled="1">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
-							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
-						</dependentTests>
-					</var>
-					<var>L_CM
-						<value>500n</value>
-						<dependentTests>
-							<dependentTest enabled="1">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
-							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
-						</dependentTests>
-					</var>
-					<var>L_fold
-						<value>400n</value>
-						<dependentTests>
-							<dependentTest enabled="1">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
-							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
-						</dependentTests>
-					</var>
-					<var>L_in
-						<value>500n</value>
-						<dependentTests>
-							<dependentTest enabled="1">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
-							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
-						</dependentTests>
-					</var>
-					<var>VDD_AC
-						<value>0</value>
-						<dependentTests>
-							<dependentTest enabled="1">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
-							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
-						</dependentTests>
-					</var>
-					<var>VDIFF_AC
-						<value>1</value>
-						<dependentTests>
-							<dependentTest enabled="1">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
-						</dependentTests>
-					</var>
-					<var>VDIFF_DC
-						<value>0</value>
-						<dependentTests>
-							<dependentTest enabled="1">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
-						</dependentTests>
-					</var>
-					<var>VINCM_AC
-						<value>0</value>
-						<dependentTests>
-							<dependentTest enabled="1">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
-						</dependentTests>
-					</var>
-					<var>VINCM_DC
-						<value>1.65</value>
-						<dependentTests>
-							<dependentTest enabled="1">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
-						</dependentTests>
-					</var>
-					<var>W_cascN
-						<value>10.15u</value>
-						<dependentTests>
-							<dependentTest enabled="1">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
-							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
-						</dependentTests>
-					</var>
-					<var>W_cascp
-						<value>10u</value>
-						<dependentTests>
-							<dependentTest enabled="1">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
-							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
-						</dependentTests>
-					</var>
-					<var>W_CM
-						<value>1.25u</value>
-						<dependentTests>
-							<dependentTest enabled="1">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
-							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
-						</dependentTests>
-					</var>
-					<var>W_fold
-						<value>28.36u</value>
-						<dependentTests>
-							<dependentTest enabled="1">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
-							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
-						</dependentTests>
-					</var>
-					<var>W_in
-						<value>60u</value>
-						<dependentTests>
-							<dependentTest enabled="1">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
-							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
-						</dependentTests>
-					</var>
-					<var>ISS
-						<value>130u</value>
-						<dependentTests>
-							<dependentTest enabled="1">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
-							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
-						</dependentTests>
-					</var>
-					<var>Vb1
-						<value>2.54</value>
-						<dependentTests>
-							<dependentTest enabled="1">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
-							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
-						</dependentTests>
-					</var>
-					<var>Vb2
-						<value>1.94</value>
-						<dependentTests>
-							<dependentTest enabled="1">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
-							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
-						</dependentTests>
-					</var>
-					<var>Vb3
-						<value>1.35</value>
-						<dependentTests>
-							<dependentTest enabled="1">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
-							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
-						</dependentTests>
-					</var>
-					<var>VIN_DC
-						<value>1.65</value>
-						<dependentTests>
-							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
-						</dependentTests>
-					</var>
-					<var>Vb0
-						<value>650m</value>
-						<dependentTests>
-							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
-							<dependentTest omitted="0">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
-						</dependentTests>
-					</var>
-					<var>W_CS
-						<value>110u</value>
-						<dependentTests>
-							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
-							<dependentTest omitted="0">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
-						</dependentTests>
-					</var>
-					<var>L_CS
-						<value>1u</value>
-						<dependentTests>
-							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
-							<dependentTest omitted="0">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
-						</dependentTests>
-					</var>
-					<var>LB_CM1
-						<value>400n</value>
-						<dependentTests>
-							<dependentTest omitted="0">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
-							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
-						</dependentTests>
-					</var>
-					<var>WB_CM1
-						<value>5.9u</value>
-						<dependentTests>
-							<dependentTest omitted="0">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
-							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
-						</dependentTests>
-					</var>
-					<var>LB_VB0
-						<value>1u</value>
-						<dependentTests>
-							<dependentTest omitted="0">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
-							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
-						</dependentTests>
-					</var>
-					<var>WB_VB0
-						<value>28.7u</value>
-						<dependentTests>
-							<dependentTest omitted="0">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
-							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
-						</dependentTests>
-					</var>
-					<var>LB_VB2_CASC
-						<value>400n</value>
-						<dependentTests>
-							<dependentTest omitted="0">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
-							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
-						</dependentTests>
-					</var>
-					<var>LB_VB2_CM
-						<value>1u</value>
-						<dependentTests>
-							<dependentTest omitted="0">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
-							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
-						</dependentTests>
-					</var>
-					<var>WB_CM2
-						<value>WB_VB0/2</value>
-						<dependentTests>
-							<dependentTest omitted="0">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
-							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
-						</dependentTests>
-					</var>
-					<var>WB_VB2_CASC
-						<value>4.2u</value>
-						<dependentTests>
-							<dependentTest omitted="0">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
-							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
-						</dependentTests>
-					</var>
-					<var>WB_VB2_CM
-						<value>1.21u</value>
-						<dependentTests>
-							<dependentTest omitted="0">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
-							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
-						</dependentTests>
-					</var>
-					<var>LB_CM3
-						<value>400n</value>
-						<dependentTests>
-							<dependentTest omitted="0">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
-							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
-						</dependentTests>
-					</var>
-					<var>LB_VB3_CASC
-						<value>500n</value>
-						<dependentTests>
-							<dependentTest omitted="0">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
-							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
-						</dependentTests>
-					</var>
-					<var>LB_VB3_CM
-						<value>1u</value>
-						<dependentTests>
-							<dependentTest omitted="0">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
-							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
-						</dependentTests>
-					</var>
-					<var>WB_CM3
-						<value>WB_VB0/2/2</value>
-						<dependentTests>
-							<dependentTest omitted="0">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
-							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
-						</dependentTests>
-					</var>
-					<var>WB_VB3_CASC
-						<value>27.61u/2</value>
-						<dependentTests>
-							<dependentTest omitted="0">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
-							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
-						</dependentTests>
-					</var>
-					<var>WB_VB3_CM
-						<value>740n</value>
-						<dependentTests>
-							<dependentTest omitted="0">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
-							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
-						</dependentTests>
-					</var>
-				</vars>
-				<overwritehistoryname>Interactive.0</overwritehistoryname>
-				<plottingoptions>
-					<plottingoption>plottype
-						<value>None</value>
-					</plottingoption>
-					<plottingoption>usewaveformtemplate
-						<value>no</value>
-					</plottingoption>
-					<plottingoption>waveformtemplate
-						<value></value>
-					</plottingoption>
-				</plottingoptions>
-				<disabledtests>
-					<test>folded_cascode:Closed_Loop_TB:1</test>
-				</disabledtests>
-				<sortVariableValues>0</sortVariableValues>
-			</checkpoint>
-			<timestamp>Sat May 3 15:02:15 2025</timestamp>
-			<resultsname>/home/cadence/IC2_Folded_biquad/IC2_Folded_biquad/folded_cascode/Folded_cascode_full_circuit/adexl/results/data/Interactive.82.rdb</resultsname>
-			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.82.rdb</simresults>
-			<rawdatadelstrategy>SaveAll</rawdatadelstrategy>
-			<netlistdelstrategy>SaveAll</netlistdelstrategy>
-			<uselocalpsfdir>false</uselocalpsfdir>
-			<localpsfdir>/tmp/berkeley_cadence_150215711</localpsfdir>
-			<psfdir>/home/cadence/simulation/folded_cascode/Folded_cascode_full_circuit/adexl/results/data/Interactive.82</psfdir>
-			<simdir>$AXL_PROJECT_DIR/folded_cascode/Folded_cascode_full_circuit/adexl/results/data/Interactive.82</simdir>
-			<gendatasheetplotsonsimulation>1</gendatasheetplotsonsimulation>
-			<runlog>/home/cadence/IC2_Folded_biquad/IC2_Folded_biquad/folded_cascode/Folded_cascode_full_circuit/adexl/results/data/Interactive.82.log</runlog>
-			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.82.log</runlogfile>
-			<schematicpoint></schematicpoint>
-			<test>all</test>
-		</historyentry>
 		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.83
 			<checkpoint>
 				<corners>
@@ -2319,8 +821,7 @@
 				</disabledtests>
 				<sortVariableValues>0</sortVariableValues>
 			</checkpoint>
-			<timestamp>Sat May  3 16:42:20 2025
-</timestamp>
+			<timestamp>Sat May 3 16:42:20 2025</timestamp>
 			<resultsname>/home/cadence/IC2_Folded_biquad/IC2_Folded_biquad/folded_cascode/Folded_cascode_full_circuit/adexl/results/data/Interactive.83.rdb</resultsname>
 			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.83.rdb</simresults>
 			<rawdatadelstrategy>SaveAll</rawdatadelstrategy>
@@ -2713,8 +1214,7 @@
 				</disabledtests>
 				<sortVariableValues>0</sortVariableValues>
 			</checkpoint>
-			<timestamp>Sat May  3 17:00:53 2025
-</timestamp>
+			<timestamp>Sat May 3 17:00:53 2025</timestamp>
 			<resultsname>/home/cadence/IC2_Folded_biquad/IC2_Folded_biquad/folded_cascode/Folded_cascode_full_circuit/adexl/results/data/Interactive.84.rdb</resultsname>
 			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.84.rdb</simresults>
 			<rawdatadelstrategy>SaveAll</rawdatadelstrategy>
@@ -3107,8 +1607,7 @@
 				</disabledtests>
 				<sortVariableValues>0</sortVariableValues>
 			</checkpoint>
-			<timestamp>Sat May  3 17:01:48 2025
-</timestamp>
+			<timestamp>Sat May 3 17:01:48 2025</timestamp>
 			<resultsname>/home/cadence/IC2_Folded_biquad/IC2_Folded_biquad/folded_cascode/Folded_cascode_full_circuit/adexl/results/data/Interactive.85.rdb</resultsname>
 			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.85.rdb</simresults>
 			<rawdatadelstrategy>SaveAll</rawdatadelstrategy>
@@ -3501,8 +2000,7 @@
 				</disabledtests>
 				<sortVariableValues>0</sortVariableValues>
 			</checkpoint>
-			<timestamp>Sat May  3 17:02:18 2025
-</timestamp>
+			<timestamp>Sat May 3 17:02:18 2025</timestamp>
 			<resultsname>/home/cadence/IC2_Folded_biquad/IC2_Folded_biquad/folded_cascode/Folded_cascode_full_circuit/adexl/results/data/Interactive.86.rdb</resultsname>
 			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.86.rdb</simresults>
 			<rawdatadelstrategy>SaveAll</rawdatadelstrategy>
@@ -3895,8 +2393,7 @@
 				</disabledtests>
 				<sortVariableValues>0</sortVariableValues>
 			</checkpoint>
-			<timestamp>Sat May  3 17:02:59 2025
-</timestamp>
+			<timestamp>Sat May 3 17:02:59 2025</timestamp>
 			<resultsname>/home/cadence/IC2_Folded_biquad/IC2_Folded_biquad/folded_cascode/Folded_cascode_full_circuit/adexl/results/data/Interactive.87.rdb</resultsname>
 			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.87.rdb</simresults>
 			<rawdatadelstrategy>SaveAll</rawdatadelstrategy>
@@ -4289,8 +2786,7 @@
 				</disabledtests>
 				<sortVariableValues>0</sortVariableValues>
 			</checkpoint>
-			<timestamp>Sat May  3 17:03:26 2025
-</timestamp>
+			<timestamp>Sat May 3 17:03:26 2025</timestamp>
 			<resultsname>/home/cadence/IC2_Folded_biquad/IC2_Folded_biquad/folded_cascode/Folded_cascode_full_circuit/adexl/results/data/Interactive.88.rdb</resultsname>
 			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.88.rdb</simresults>
 			<rawdatadelstrategy>SaveAll</rawdatadelstrategy>
@@ -4302,6 +2798,1752 @@
 			<gendatasheetplotsonsimulation>1</gendatasheetplotsonsimulation>
 			<runlog>/home/cadence/IC2_Folded_biquad/IC2_Folded_biquad/folded_cascode/Folded_cascode_full_circuit/adexl/results/data/Interactive.88.log</runlog>
 			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.88.log</runlogfile>
+			<schematicpoint></schematicpoint>
+			<test>all</test>
+		</historyentry>
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.89
+			<checkpoint>
+				<corners>
+					<corner enabled="1">_default</corner>
+				</corners>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+					</extension>
+				</extensions>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<overwritehistory>0</overwritehistory>
+				<tests>
+					<test enabled="1">folded_cascode:Folded_cascode_full_circuit:1
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>Folded_cascode_full_circuit</value>
+							</option>
+							<option>lib
+								<value>folded_cascode</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>folded_cascode:Folded_cascode_full_circuit:1_none_Interactive.89</value>
+							</option>
+						</tooloptions>
+						<origoptions>
+							<option>cell
+								<value>Folded_cascode_full_circuit</value>
+							</option>
+							<option>lib
+								<value>folded_cascode</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+						<outputs>
+							<output>V_out_dB
+								<evalType>point</evalType>
+							</output>
+							<output>GBW
+								<evalType>point</evalType>
+							</output>
+						</outputs>
+					</test>
+					<test enabled="1">folded_cascode:Closed_Loop_TB:1
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>Closed_Loop_TB</value>
+							</option>
+							<option>lib
+								<value>folded_cascode</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>folded_cascode:Closed_Loop_TB:1_none_Interactive.89</value>
+							</option>
+						</tooloptions>
+						<origoptions>
+							<option>cell
+								<value>Closed_Loop_TB</value>
+							</option>
+							<option>lib
+								<value>folded_cascode</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+					</test>
+				</tests>
+				<vars>
+					<var>L_cascN
+						<value>500n</value>
+						<dependentTests>
+							<dependentTest enabled="1">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
+							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>L_cascp
+						<value>400n</value>
+						<dependentTests>
+							<dependentTest enabled="1">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
+							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>L_CM
+						<value>500n</value>
+						<dependentTests>
+							<dependentTest enabled="1">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
+							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>L_fold
+						<value>400n</value>
+						<dependentTests>
+							<dependentTest enabled="1">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
+							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>L_in
+						<value>500n</value>
+						<dependentTests>
+							<dependentTest enabled="1">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
+							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VDD_AC
+						<value>0</value>
+						<dependentTests>
+							<dependentTest enabled="1">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
+							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VDIFF_AC
+						<value>1</value>
+						<dependentTests>
+							<dependentTest enabled="1">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VDIFF_DC
+						<value>0</value>
+						<dependentTests>
+							<dependentTest enabled="1">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VINCM_AC
+						<value>0</value>
+						<dependentTests>
+							<dependentTest enabled="1">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VINCM_DC
+						<value>1.65</value>
+						<dependentTests>
+							<dependentTest enabled="1">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>W_cascN
+						<value>10.15u</value>
+						<dependentTests>
+							<dependentTest enabled="1">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
+							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>W_cascp
+						<value>10u</value>
+						<dependentTests>
+							<dependentTest enabled="1">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
+							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>W_CM
+						<value>1.25u</value>
+						<dependentTests>
+							<dependentTest enabled="1">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
+							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>W_fold
+						<value>28.36u</value>
+						<dependentTests>
+							<dependentTest enabled="1">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
+							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>W_in
+						<value>60u</value>
+						<dependentTests>
+							<dependentTest enabled="1">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
+							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>ISS
+						<value>130u</value>
+						<dependentTests>
+							<dependentTest enabled="1">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
+							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Vb1
+						<value>2.54</value>
+						<dependentTests>
+							<dependentTest enabled="1">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
+							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Vb2
+						<value>1.94</value>
+						<dependentTests>
+							<dependentTest enabled="1">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
+							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Vb3
+						<value>1.35</value>
+						<dependentTests>
+							<dependentTest enabled="1">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
+							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VIN_DC
+						<value>1.65</value>
+						<dependentTests>
+							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Vb0
+						<value>650m</value>
+						<dependentTests>
+							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
+							<dependentTest omitted="0">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>W_CS
+						<value>110u</value>
+						<dependentTests>
+							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
+							<dependentTest omitted="0">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>L_CS
+						<value>1u</value>
+						<dependentTests>
+							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
+							<dependentTest omitted="0">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>LB_CM1
+						<value>400n</value>
+						<dependentTests>
+							<dependentTest omitted="0">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
+							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>WB_CM1
+						<value>5.9u</value>
+						<dependentTests>
+							<dependentTest omitted="0">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
+							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>LB_VB0
+						<value>1u</value>
+						<dependentTests>
+							<dependentTest omitted="0">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
+							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>WB_VB0
+						<value>28.7u</value>
+						<dependentTests>
+							<dependentTest omitted="0">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
+							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>LB_VB2_CASC
+						<value>400n</value>
+						<dependentTests>
+							<dependentTest omitted="0">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
+							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>LB_VB2_CM
+						<value>1u</value>
+						<dependentTests>
+							<dependentTest omitted="0">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
+							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>WB_CM2
+						<value>WB_VB0/2</value>
+						<dependentTests>
+							<dependentTest omitted="0">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
+							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>WB_VB2_CASC
+						<value>4.2u</value>
+						<dependentTests>
+							<dependentTest omitted="0">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
+							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>WB_VB2_CM
+						<value>1.21u</value>
+						<dependentTests>
+							<dependentTest omitted="0">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
+							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>LB_CM3
+						<value>400n</value>
+						<dependentTests>
+							<dependentTest omitted="0">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
+							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>LB_VB3_CASC
+						<value>500n</value>
+						<dependentTests>
+							<dependentTest omitted="0">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
+							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>LB_VB3_CM
+						<value>1u</value>
+						<dependentTests>
+							<dependentTest omitted="0">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
+							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>WB_CM3
+						<value>WB_VB0/2/2</value>
+						<dependentTests>
+							<dependentTest omitted="0">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
+							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>WB_VB3_CASC
+						<value>27.61u/2</value>
+						<dependentTests>
+							<dependentTest omitted="0">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
+							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>WB_VB3_CM
+						<value>740n</value>
+						<dependentTests>
+							<dependentTest omitted="0">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
+							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+				</vars>
+				<overwritehistoryname>Interactive.0</overwritehistoryname>
+				<plottingoptions>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>waveformtemplate
+						<value></value>
+					</plottingoption>
+				</plottingoptions>
+				<disabledtests>
+					<test>folded_cascode:Closed_Loop_TB:1</test>
+				</disabledtests>
+				<sortVariableValues>0</sortVariableValues>
+			</checkpoint>
+			<timestamp>Sat May  3 17:57:01 2025
+</timestamp>
+			<resultsname>/home/cadence/IC2_Folded_biquad/IC2_Folded_biquad/folded_cascode/Folded_cascode_full_circuit/adexl/results/data/Interactive.89.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.89.rdb</simresults>
+			<rawdatadelstrategy>SaveAll</rawdatadelstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/berkeley_cadence_175701407</localpsfdir>
+			<psfdir>/home/cadence/simulation/folded_cascode/Folded_cascode_full_circuit/adexl/results/data/Interactive.89</psfdir>
+			<simdir>$AXL_PROJECT_DIR/folded_cascode/Folded_cascode_full_circuit/adexl/results/data/Interactive.89</simdir>
+			<gendatasheetplotsonsimulation>1</gendatasheetplotsonsimulation>
+			<runlog>/home/cadence/IC2_Folded_biquad/IC2_Folded_biquad/folded_cascode/Folded_cascode_full_circuit/adexl/results/data/Interactive.89.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.89.log</runlogfile>
+			<schematicpoint></schematicpoint>
+			<test>all</test>
+		</historyentry>
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.90
+			<checkpoint>
+				<corners>
+					<corner enabled="1">_default</corner>
+				</corners>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+					</extension>
+				</extensions>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<overwritehistory>0</overwritehistory>
+				<tests>
+					<test enabled="1">folded_cascode:Folded_cascode_full_circuit:1
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>Folded_cascode_full_circuit</value>
+							</option>
+							<option>lib
+								<value>folded_cascode</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>folded_cascode:Folded_cascode_full_circuit:1_none_Interactive.90</value>
+							</option>
+						</tooloptions>
+						<origoptions>
+							<option>cell
+								<value>Folded_cascode_full_circuit</value>
+							</option>
+							<option>lib
+								<value>folded_cascode</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+						<outputs>
+							<output>V_out_dB
+								<evalType>point</evalType>
+							</output>
+							<output>GBW
+								<evalType>point</evalType>
+							</output>
+						</outputs>
+					</test>
+					<test enabled="1">folded_cascode:Closed_Loop_TB:1
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>Closed_Loop_TB</value>
+							</option>
+							<option>lib
+								<value>folded_cascode</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>folded_cascode:Closed_Loop_TB:1_none_Interactive.90</value>
+							</option>
+						</tooloptions>
+						<origoptions>
+							<option>cell
+								<value>Closed_Loop_TB</value>
+							</option>
+							<option>lib
+								<value>folded_cascode</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+					</test>
+					<test>folded_cascode:Folded_cascode_unity_feedback:1
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>Folded_cascode_unity_feedback</value>
+							</option>
+							<option>lib
+								<value>folded_cascode</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>folded_cascode:Folded_cascode_unity_feedback:1_none_Interactive.90</value>
+							</option>
+						</tooloptions>
+						<origoptions>
+							<option>cell
+								<value>Folded_cascode_unity_feedback</value>
+							</option>
+							<option>lib
+								<value>folded_cascode</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+					</test>
+				</tests>
+				<vars>
+					<var>L_cascN
+						<value>500n</value>
+						<dependentTests>
+							<dependentTest enabled="1">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
+							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>L_cascp
+						<value>400n</value>
+						<dependentTests>
+							<dependentTest enabled="1">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
+							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>L_CM
+						<value>500n</value>
+						<dependentTests>
+							<dependentTest enabled="1">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
+							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>L_fold
+						<value>400n</value>
+						<dependentTests>
+							<dependentTest enabled="1">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
+							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>L_in
+						<value>500n</value>
+						<dependentTests>
+							<dependentTest enabled="1">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
+							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VDD_AC
+						<value>0</value>
+						<dependentTests>
+							<dependentTest enabled="1">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
+							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VDIFF_AC
+						<value>1</value>
+						<dependentTests>
+							<dependentTest enabled="1">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VDIFF_DC
+						<value>0</value>
+						<dependentTests>
+							<dependentTest enabled="1">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VINCM_AC
+						<value>0</value>
+						<dependentTests>
+							<dependentTest enabled="1">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VINCM_DC
+						<value>1.65</value>
+						<dependentTests>
+							<dependentTest enabled="1">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>W_cascN
+						<value>10.15u</value>
+						<dependentTests>
+							<dependentTest enabled="1">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
+							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>W_cascp
+						<value>10u</value>
+						<dependentTests>
+							<dependentTest enabled="1">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
+							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>W_CM
+						<value>1.25u</value>
+						<dependentTests>
+							<dependentTest enabled="1">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
+							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>W_fold
+						<value>28.36u</value>
+						<dependentTests>
+							<dependentTest enabled="1">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
+							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>W_in
+						<value>60u</value>
+						<dependentTests>
+							<dependentTest enabled="1">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
+							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>ISS
+						<value>130u</value>
+						<dependentTests>
+							<dependentTest enabled="1">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
+							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Vb1
+						<value>2.54</value>
+						<dependentTests>
+							<dependentTest enabled="1">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
+							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Vb2
+						<value>1.94</value>
+						<dependentTests>
+							<dependentTest enabled="1">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
+							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Vb3
+						<value>1.35</value>
+						<dependentTests>
+							<dependentTest enabled="1">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
+							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VIN_DC
+						<value>1.65</value>
+						<dependentTests>
+							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Vb0
+						<value>650m</value>
+						<dependentTests>
+							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
+							<dependentTest omitted="0">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>W_CS
+						<value>110u</value>
+						<dependentTests>
+							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
+							<dependentTest omitted="0">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>L_CS
+						<value>1u</value>
+						<dependentTests>
+							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
+							<dependentTest omitted="0">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>LB_CM1
+						<value>400n</value>
+						<dependentTests>
+							<dependentTest omitted="0">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
+							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>WB_CM1
+						<value>5.9u</value>
+						<dependentTests>
+							<dependentTest omitted="0">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
+							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>LB_VB0
+						<value>1u</value>
+						<dependentTests>
+							<dependentTest omitted="0">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
+							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>WB_VB0
+						<value>28.7u</value>
+						<dependentTests>
+							<dependentTest omitted="0">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
+							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>LB_VB2_CASC
+						<value>400n</value>
+						<dependentTests>
+							<dependentTest omitted="0">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
+							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>LB_VB2_CM
+						<value>1u</value>
+						<dependentTests>
+							<dependentTest omitted="0">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
+							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>WB_CM2
+						<value>WB_VB0/2</value>
+						<dependentTests>
+							<dependentTest omitted="0">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
+							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>WB_VB2_CASC
+						<value>4.2u</value>
+						<dependentTests>
+							<dependentTest omitted="0">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
+							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>WB_VB2_CM
+						<value>1.21u</value>
+						<dependentTests>
+							<dependentTest omitted="0">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
+							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>LB_CM3
+						<value>400n</value>
+						<dependentTests>
+							<dependentTest omitted="0">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
+							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>LB_VB3_CASC
+						<value>500n</value>
+						<dependentTests>
+							<dependentTest omitted="0">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
+							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>LB_VB3_CM
+						<value>1u</value>
+						<dependentTests>
+							<dependentTest omitted="0">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
+							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>WB_CM3
+						<value>WB_VB0/2/2</value>
+						<dependentTests>
+							<dependentTest omitted="0">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
+							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>WB_VB3_CASC
+						<value>27.61u/2</value>
+						<dependentTests>
+							<dependentTest omitted="0">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
+							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>WB_VB3_CM
+						<value>740n</value>
+						<dependentTests>
+							<dependentTest omitted="0">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
+							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+				</vars>
+				<overwritehistoryname>Interactive.0</overwritehistoryname>
+				<plottingoptions>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>waveformtemplate
+						<value></value>
+					</plottingoption>
+				</plottingoptions>
+				<disabledtests>
+					<test>folded_cascode:Closed_Loop_TB:1</test>
+					<test>folded_cascode:Folded_cascode_full_circuit:1</test>
+				</disabledtests>
+				<sortVariableValues>0</sortVariableValues>
+			</checkpoint>
+			<timestamp>Sat May  3 18:08:09 2025
+</timestamp>
+			<resultsname>/home/cadence/IC2_Folded_biquad/IC2_Folded_biquad/folded_cascode/Folded_cascode_full_circuit/adexl/results/data/Interactive.90.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.90.rdb</simresults>
+			<rawdatadelstrategy>SaveAll</rawdatadelstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/berkeley_cadence_180809587</localpsfdir>
+			<psfdir>/home/cadence/simulation/folded_cascode/Folded_cascode_full_circuit/adexl/results/data/Interactive.90</psfdir>
+			<simdir>$AXL_PROJECT_DIR/folded_cascode/Folded_cascode_full_circuit/adexl/results/data/Interactive.90</simdir>
+			<gendatasheetplotsonsimulation>1</gendatasheetplotsonsimulation>
+			<runlog>/home/cadence/IC2_Folded_biquad/IC2_Folded_biquad/folded_cascode/Folded_cascode_full_circuit/adexl/results/data/Interactive.90.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.90.log</runlogfile>
+			<schematicpoint></schematicpoint>
+			<test>all</test>
+		</historyentry>
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.91
+			<checkpoint>
+				<corners>
+					<corner enabled="1">_default</corner>
+				</corners>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+					</extension>
+				</extensions>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<overwritehistory>0</overwritehistory>
+				<tests>
+					<test enabled="1">folded_cascode:Folded_cascode_full_circuit:1
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>Folded_cascode_full_circuit</value>
+							</option>
+							<option>lib
+								<value>folded_cascode</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>folded_cascode:Folded_cascode_full_circuit:1_none_Interactive.91</value>
+							</option>
+						</tooloptions>
+						<origoptions>
+							<option>cell
+								<value>Folded_cascode_full_circuit</value>
+							</option>
+							<option>lib
+								<value>folded_cascode</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+						<outputs>
+							<output>V_out_dB
+								<evalType>point</evalType>
+							</output>
+							<output>GBW
+								<evalType>point</evalType>
+							</output>
+						</outputs>
+					</test>
+					<test enabled="1">folded_cascode:Closed_Loop_TB:1
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>Closed_Loop_TB</value>
+							</option>
+							<option>lib
+								<value>folded_cascode</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>folded_cascode:Closed_Loop_TB:1_none_Interactive.91</value>
+							</option>
+						</tooloptions>
+						<origoptions>
+							<option>cell
+								<value>Closed_Loop_TB</value>
+							</option>
+							<option>lib
+								<value>folded_cascode</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+					</test>
+					<test>folded_cascode:Folded_cascode_unity_feedback:1
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>Folded_cascode_unity_feedback</value>
+							</option>
+							<option>lib
+								<value>folded_cascode</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>folded_cascode:Folded_cascode_unity_feedback:1_none_Interactive.91</value>
+							</option>
+						</tooloptions>
+						<origoptions>
+							<option>cell
+								<value>Folded_cascode_unity_feedback</value>
+							</option>
+							<option>lib
+								<value>folded_cascode</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+					</test>
+				</tests>
+				<vars>
+					<var>L_cascN
+						<value>500n</value>
+						<dependentTests>
+							<dependentTest enabled="1">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
+							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
+							<dependentTest omitted="0">folded_cascode:Folded_cascode_unity_feedback:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>L_cascp
+						<value>400n</value>
+						<dependentTests>
+							<dependentTest enabled="1">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
+							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
+							<dependentTest omitted="0">folded_cascode:Folded_cascode_unity_feedback:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>L_CM
+						<value>500n</value>
+						<dependentTests>
+							<dependentTest enabled="1">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
+							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
+							<dependentTest omitted="0">folded_cascode:Folded_cascode_unity_feedback:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>L_fold
+						<value>400n</value>
+						<dependentTests>
+							<dependentTest enabled="1">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
+							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
+							<dependentTest omitted="0">folded_cascode:Folded_cascode_unity_feedback:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>L_in
+						<value>500n</value>
+						<dependentTests>
+							<dependentTest enabled="1">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
+							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
+							<dependentTest omitted="0">folded_cascode:Folded_cascode_unity_feedback:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VDD_AC
+						<value>0</value>
+						<dependentTests>
+							<dependentTest enabled="1">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
+							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
+							<dependentTest omitted="0">folded_cascode:Folded_cascode_unity_feedback:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VDIFF_AC
+						<value>1</value>
+						<dependentTests>
+							<dependentTest enabled="1">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VDIFF_DC
+						<value>0</value>
+						<dependentTests>
+							<dependentTest enabled="1">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VINCM_AC
+						<value>0</value>
+						<dependentTests>
+							<dependentTest enabled="1">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VINCM_DC
+						<value>1.65</value>
+						<dependentTests>
+							<dependentTest enabled="1">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>W_cascN
+						<value>10.15u</value>
+						<dependentTests>
+							<dependentTest enabled="1">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
+							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
+							<dependentTest omitted="0">folded_cascode:Folded_cascode_unity_feedback:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>W_cascp
+						<value>10u</value>
+						<dependentTests>
+							<dependentTest enabled="1">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
+							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
+							<dependentTest omitted="0">folded_cascode:Folded_cascode_unity_feedback:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>W_CM
+						<value>1.25u</value>
+						<dependentTests>
+							<dependentTest enabled="1">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
+							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
+							<dependentTest omitted="0">folded_cascode:Folded_cascode_unity_feedback:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>W_fold
+						<value>28.36u</value>
+						<dependentTests>
+							<dependentTest enabled="1">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
+							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
+							<dependentTest omitted="0">folded_cascode:Folded_cascode_unity_feedback:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>W_in
+						<value>60u</value>
+						<dependentTests>
+							<dependentTest enabled="1">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
+							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
+							<dependentTest omitted="0">folded_cascode:Folded_cascode_unity_feedback:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>ISS
+						<value>130u</value>
+						<dependentTests>
+							<dependentTest enabled="1">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
+							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Vb1
+						<value>2.54</value>
+						<dependentTests>
+							<dependentTest enabled="1">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
+							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Vb2
+						<value>1.94</value>
+						<dependentTests>
+							<dependentTest enabled="1">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
+							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Vb3
+						<value>1.35</value>
+						<dependentTests>
+							<dependentTest enabled="1">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
+							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VIN_DC
+						<value>1.65</value>
+						<dependentTests>
+							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Vb0
+						<value>650m</value>
+						<dependentTests>
+							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
+							<dependentTest omitted="0">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>W_CS
+						<value>110u</value>
+						<dependentTests>
+							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
+							<dependentTest omitted="0">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
+							<dependentTest omitted="0">folded_cascode:Folded_cascode_unity_feedback:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>L_CS
+						<value>1u</value>
+						<dependentTests>
+							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
+							<dependentTest omitted="0">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
+							<dependentTest omitted="0">folded_cascode:Folded_cascode_unity_feedback:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>LB_CM1
+						<value>400n</value>
+						<dependentTests>
+							<dependentTest omitted="0">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
+							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
+							<dependentTest omitted="0">folded_cascode:Folded_cascode_unity_feedback:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>WB_CM1
+						<value>5.9u</value>
+						<dependentTests>
+							<dependentTest omitted="0">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
+							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
+							<dependentTest omitted="0">folded_cascode:Folded_cascode_unity_feedback:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>LB_VB0
+						<value>1u</value>
+						<dependentTests>
+							<dependentTest omitted="0">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
+							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
+							<dependentTest omitted="0">folded_cascode:Folded_cascode_unity_feedback:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>WB_VB0
+						<value>28.7u</value>
+						<dependentTests>
+							<dependentTest omitted="0">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
+							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
+							<dependentTest omitted="0">folded_cascode:Folded_cascode_unity_feedback:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>LB_VB2_CASC
+						<value>400n</value>
+						<dependentTests>
+							<dependentTest omitted="0">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
+							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
+							<dependentTest omitted="0">folded_cascode:Folded_cascode_unity_feedback:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>LB_VB2_CM
+						<value>1u</value>
+						<dependentTests>
+							<dependentTest omitted="0">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
+							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
+							<dependentTest omitted="0">folded_cascode:Folded_cascode_unity_feedback:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>WB_CM2
+						<value>WB_VB0/2</value>
+						<dependentTests>
+							<dependentTest omitted="0">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
+							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
+							<dependentTest omitted="0">folded_cascode:Folded_cascode_unity_feedback:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>WB_VB2_CASC
+						<value>4.2u</value>
+						<dependentTests>
+							<dependentTest omitted="0">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
+							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
+							<dependentTest omitted="0">folded_cascode:Folded_cascode_unity_feedback:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>WB_VB2_CM
+						<value>1.21u</value>
+						<dependentTests>
+							<dependentTest omitted="0">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
+							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
+							<dependentTest omitted="0">folded_cascode:Folded_cascode_unity_feedback:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>LB_CM3
+						<value>400n</value>
+						<dependentTests>
+							<dependentTest omitted="0">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
+							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
+							<dependentTest omitted="0">folded_cascode:Folded_cascode_unity_feedback:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>LB_VB3_CASC
+						<value>500n</value>
+						<dependentTests>
+							<dependentTest omitted="0">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
+							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
+							<dependentTest omitted="0">folded_cascode:Folded_cascode_unity_feedback:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>LB_VB3_CM
+						<value>1u</value>
+						<dependentTests>
+							<dependentTest omitted="0">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
+							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
+							<dependentTest omitted="0">folded_cascode:Folded_cascode_unity_feedback:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>WB_CM3
+						<value>WB_VB0/2/2</value>
+						<dependentTests>
+							<dependentTest omitted="0">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
+							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
+							<dependentTest omitted="0">folded_cascode:Folded_cascode_unity_feedback:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>WB_VB3_CASC
+						<value>27.61u/2</value>
+						<dependentTests>
+							<dependentTest omitted="0">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
+							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
+							<dependentTest omitted="0">folded_cascode:Folded_cascode_unity_feedback:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>WB_VB3_CM
+						<value>740n</value>
+						<dependentTests>
+							<dependentTest omitted="0">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
+							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
+							<dependentTest omitted="0">folded_cascode:Folded_cascode_unity_feedback:1</dependentTest>
+						</dependentTests>
+					</var>
+				</vars>
+				<overwritehistoryname>Interactive.0</overwritehistoryname>
+				<plottingoptions>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>waveformtemplate
+						<value></value>
+					</plottingoption>
+				</plottingoptions>
+				<disabledtests>
+					<test>folded_cascode:Closed_Loop_TB:1</test>
+					<test>folded_cascode:Folded_cascode_full_circuit:1</test>
+				</disabledtests>
+				<sortVariableValues>0</sortVariableValues>
+			</checkpoint>
+			<timestamp>Sat May  3 18:09:47 2025
+</timestamp>
+			<resultsname>/home/cadence/IC2_Folded_biquad/IC2_Folded_biquad/folded_cascode/Folded_cascode_full_circuit/adexl/results/data/Interactive.91.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.91.rdb</simresults>
+			<rawdatadelstrategy>SaveAll</rawdatadelstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/berkeley_cadence_180947497</localpsfdir>
+			<psfdir>/home/cadence/simulation/folded_cascode/Folded_cascode_full_circuit/adexl/results/data/Interactive.91</psfdir>
+			<simdir>$AXL_PROJECT_DIR/folded_cascode/Folded_cascode_full_circuit/adexl/results/data/Interactive.91</simdir>
+			<gendatasheetplotsonsimulation>1</gendatasheetplotsonsimulation>
+			<runlog>/home/cadence/IC2_Folded_biquad/IC2_Folded_biquad/folded_cascode/Folded_cascode_full_circuit/adexl/results/data/Interactive.91.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.91.log</runlogfile>
+			<schematicpoint></schematicpoint>
+			<test>all</test>
+		</historyentry>
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.92
+			<checkpoint>
+				<corners>
+					<corner enabled="1">_default</corner>
+				</corners>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+					</extension>
+				</extensions>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<overwritehistory>0</overwritehistory>
+				<tests>
+					<test enabled="1">folded_cascode:Folded_cascode_full_circuit:1
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>Folded_cascode_full_circuit</value>
+							</option>
+							<option>lib
+								<value>folded_cascode</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>folded_cascode:Folded_cascode_full_circuit:1_none_Interactive.92</value>
+							</option>
+						</tooloptions>
+						<origoptions>
+							<option>cell
+								<value>Folded_cascode_full_circuit</value>
+							</option>
+							<option>lib
+								<value>folded_cascode</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+						<outputs>
+							<output>V_out_dB
+								<evalType>point</evalType>
+							</output>
+							<output>GBW
+								<evalType>point</evalType>
+							</output>
+						</outputs>
+					</test>
+					<test enabled="1">folded_cascode:Closed_Loop_TB:1
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>Closed_Loop_TB</value>
+							</option>
+							<option>lib
+								<value>folded_cascode</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>folded_cascode:Closed_Loop_TB:1_none_Interactive.92</value>
+							</option>
+						</tooloptions>
+						<origoptions>
+							<option>cell
+								<value>Closed_Loop_TB</value>
+							</option>
+							<option>lib
+								<value>folded_cascode</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+					</test>
+					<test>folded_cascode:Folded_cascode_unity_feedback:1
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>Folded_cascode_unity_feedback</value>
+							</option>
+							<option>lib
+								<value>folded_cascode</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>folded_cascode:Folded_cascode_unity_feedback:1_none_Interactive.92</value>
+							</option>
+						</tooloptions>
+						<origoptions>
+							<option>cell
+								<value>Folded_cascode_unity_feedback</value>
+							</option>
+							<option>lib
+								<value>folded_cascode</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+					</test>
+				</tests>
+				<vars>
+					<var>L_cascN
+						<value>500n</value>
+						<dependentTests>
+							<dependentTest enabled="1">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
+							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
+							<dependentTest omitted="0">folded_cascode:Folded_cascode_unity_feedback:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>L_cascp
+						<value>400n</value>
+						<dependentTests>
+							<dependentTest enabled="1">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
+							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
+							<dependentTest omitted="0">folded_cascode:Folded_cascode_unity_feedback:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>L_CM
+						<value>500n</value>
+						<dependentTests>
+							<dependentTest enabled="1">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
+							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
+							<dependentTest omitted="0">folded_cascode:Folded_cascode_unity_feedback:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>L_fold
+						<value>400n</value>
+						<dependentTests>
+							<dependentTest enabled="1">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
+							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
+							<dependentTest omitted="0">folded_cascode:Folded_cascode_unity_feedback:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>L_in
+						<value>500n</value>
+						<dependentTests>
+							<dependentTest enabled="1">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
+							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
+							<dependentTest omitted="0">folded_cascode:Folded_cascode_unity_feedback:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VDD_AC
+						<value>0</value>
+						<dependentTests>
+							<dependentTest enabled="1">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
+							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
+							<dependentTest omitted="0">folded_cascode:Folded_cascode_unity_feedback:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VDIFF_AC
+						<value>1</value>
+						<dependentTests>
+							<dependentTest enabled="1">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VDIFF_DC
+						<value>0</value>
+						<dependentTests>
+							<dependentTest enabled="1">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VINCM_AC
+						<value>0</value>
+						<dependentTests>
+							<dependentTest enabled="1">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VINCM_DC
+						<value>1.65</value>
+						<dependentTests>
+							<dependentTest enabled="1">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>W_cascN
+						<value>10.15u</value>
+						<dependentTests>
+							<dependentTest enabled="1">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
+							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
+							<dependentTest omitted="0">folded_cascode:Folded_cascode_unity_feedback:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>W_cascp
+						<value>10u</value>
+						<dependentTests>
+							<dependentTest enabled="1">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
+							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
+							<dependentTest omitted="0">folded_cascode:Folded_cascode_unity_feedback:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>W_CM
+						<value>1.25u</value>
+						<dependentTests>
+							<dependentTest enabled="1">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
+							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
+							<dependentTest omitted="0">folded_cascode:Folded_cascode_unity_feedback:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>W_fold
+						<value>28.36u</value>
+						<dependentTests>
+							<dependentTest enabled="1">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
+							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
+							<dependentTest omitted="0">folded_cascode:Folded_cascode_unity_feedback:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>W_in
+						<value>60u</value>
+						<dependentTests>
+							<dependentTest enabled="1">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
+							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
+							<dependentTest omitted="0">folded_cascode:Folded_cascode_unity_feedback:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>ISS
+						<value>130u</value>
+						<dependentTests>
+							<dependentTest enabled="1">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
+							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Vb1
+						<value>2.54</value>
+						<dependentTests>
+							<dependentTest enabled="1">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
+							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Vb2
+						<value>1.94</value>
+						<dependentTests>
+							<dependentTest enabled="1">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
+							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Vb3
+						<value>1.35</value>
+						<dependentTests>
+							<dependentTest enabled="1">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
+							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VIN_DC
+						<value>1.65</value>
+						<dependentTests>
+							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Vb0
+						<value>650m</value>
+						<dependentTests>
+							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
+							<dependentTest omitted="0">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>W_CS
+						<value>110u</value>
+						<dependentTests>
+							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
+							<dependentTest omitted="0">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
+							<dependentTest omitted="0">folded_cascode:Folded_cascode_unity_feedback:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>L_CS
+						<value>1u</value>
+						<dependentTests>
+							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
+							<dependentTest omitted="0">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
+							<dependentTest omitted="0">folded_cascode:Folded_cascode_unity_feedback:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>LB_CM1
+						<value>400n</value>
+						<dependentTests>
+							<dependentTest omitted="0">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
+							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
+							<dependentTest omitted="0">folded_cascode:Folded_cascode_unity_feedback:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>WB_CM1
+						<value>5.9u</value>
+						<dependentTests>
+							<dependentTest omitted="0">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
+							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
+							<dependentTest omitted="0">folded_cascode:Folded_cascode_unity_feedback:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>LB_VB0
+						<value>1u</value>
+						<dependentTests>
+							<dependentTest omitted="0">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
+							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
+							<dependentTest omitted="0">folded_cascode:Folded_cascode_unity_feedback:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>WB_VB0
+						<value>28.7u</value>
+						<dependentTests>
+							<dependentTest omitted="0">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
+							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
+							<dependentTest omitted="0">folded_cascode:Folded_cascode_unity_feedback:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>LB_VB2_CASC
+						<value>400n</value>
+						<dependentTests>
+							<dependentTest omitted="0">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
+							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
+							<dependentTest omitted="0">folded_cascode:Folded_cascode_unity_feedback:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>LB_VB2_CM
+						<value>1u</value>
+						<dependentTests>
+							<dependentTest omitted="0">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
+							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
+							<dependentTest omitted="0">folded_cascode:Folded_cascode_unity_feedback:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>WB_CM2
+						<value>WB_VB0/2</value>
+						<dependentTests>
+							<dependentTest omitted="0">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
+							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
+							<dependentTest omitted="0">folded_cascode:Folded_cascode_unity_feedback:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>WB_VB2_CASC
+						<value>4.2u</value>
+						<dependentTests>
+							<dependentTest omitted="0">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
+							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
+							<dependentTest omitted="0">folded_cascode:Folded_cascode_unity_feedback:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>WB_VB2_CM
+						<value>1.21u</value>
+						<dependentTests>
+							<dependentTest omitted="0">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
+							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
+							<dependentTest omitted="0">folded_cascode:Folded_cascode_unity_feedback:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>LB_CM3
+						<value>400n</value>
+						<dependentTests>
+							<dependentTest omitted="0">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
+							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
+							<dependentTest omitted="0">folded_cascode:Folded_cascode_unity_feedback:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>LB_VB3_CASC
+						<value>500n</value>
+						<dependentTests>
+							<dependentTest omitted="0">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
+							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
+							<dependentTest omitted="0">folded_cascode:Folded_cascode_unity_feedback:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>LB_VB3_CM
+						<value>1u</value>
+						<dependentTests>
+							<dependentTest omitted="0">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
+							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
+							<dependentTest omitted="0">folded_cascode:Folded_cascode_unity_feedback:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>WB_CM3
+						<value>WB_VB0/2/2</value>
+						<dependentTests>
+							<dependentTest omitted="0">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
+							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
+							<dependentTest omitted="0">folded_cascode:Folded_cascode_unity_feedback:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>WB_VB3_CASC
+						<value>27.61u/2</value>
+						<dependentTests>
+							<dependentTest omitted="0">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
+							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
+							<dependentTest omitted="0">folded_cascode:Folded_cascode_unity_feedback:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>WB_VB3_CM
+						<value>740n</value>
+						<dependentTests>
+							<dependentTest omitted="0">folded_cascode:Folded_cascode_full_circuit:1</dependentTest>
+							<dependentTest omitted="0">folded_cascode:Closed_Loop_TB:1</dependentTest>
+							<dependentTest omitted="0">folded_cascode:Folded_cascode_unity_feedback:1</dependentTest>
+						</dependentTests>
+					</var>
+				</vars>
+				<overwritehistoryname>Interactive.0</overwritehistoryname>
+				<plottingoptions>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>waveformtemplate
+						<value></value>
+					</plottingoption>
+				</plottingoptions>
+				<disabledtests>
+					<test>folded_cascode:Closed_Loop_TB:1</test>
+					<test>folded_cascode:Folded_cascode_full_circuit:1</test>
+				</disabledtests>
+				<sortVariableValues>0</sortVariableValues>
+			</checkpoint>
+			<timestamp>Sat May  3 18:11:09 2025
+</timestamp>
+			<resultsname>/home/cadence/IC2_Folded_biquad/IC2_Folded_biquad/folded_cascode/Folded_cascode_full_circuit/adexl/results/data/Interactive.92.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.92.rdb</simresults>
+			<rawdatadelstrategy>SaveAll</rawdatadelstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/berkeley_cadence_181109679</localpsfdir>
+			<psfdir>/home/cadence/simulation/folded_cascode/Folded_cascode_full_circuit/adexl/results/data/Interactive.92</psfdir>
+			<simdir>$AXL_PROJECT_DIR/folded_cascode/Folded_cascode_full_circuit/adexl/results/data/Interactive.92</simdir>
+			<gendatasheetplotsonsimulation>1</gendatasheetplotsonsimulation>
+			<runlog>/home/cadence/IC2_Folded_biquad/IC2_Folded_biquad/folded_cascode/Folded_cascode_full_circuit/adexl/results/data/Interactive.92.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.92.log</runlogfile>
 			<schematicpoint></schematicpoint>
 			<test>all</test>
 		</historyentry>

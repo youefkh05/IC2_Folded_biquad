@@ -11,9 +11,9 @@
 	View         = schematic
 	Simulator    = spectre
 	State Path   = $AXL_SETUPDB_DIR/test_states
-	State Name   = folded_cascode:Folded_cascode_full_circuit:1_none_Interactive.83
-	Results DB   = /home/cadence/IC2_Folded_biquad/IC2_Folded_biquad/folded_cascode/Folded_cascode_full_circuit/adexl/results/data/Interactive.83.rdb
-	Results Dir  = /home/cadence/simulation/folded_cascode/Folded_cascode_full_circuit/adexl/results/data/Interactive.83/1/folded_cascode:Folded_cascode_full_circuit:1
+	State Name   = folded_cascode:Folded_cascode_full_circuit:1_none_Interactive.89
+	Results DB   = /home/cadence/IC2_Folded_biquad/IC2_Folded_biquad/folded_cascode/Folded_cascode_full_circuit/adexl/results/data/Interactive.89.rdb
+	Results Dir  = /home/cadence/simulation/folded_cascode/Folded_cascode_full_circuit/adexl/results/data/Interactive.89/1/folded_cascode:Folded_cascode_full_circuit:1
 	Results Loc  = /home/cadence/simulation/folded_cascode/Folded_cascode_full_circuit/adexl/results/data
 	Project Dir  = /home/cadence/simulation
 	Setup DB loc = /home/cadence/IC2_Folded_biquad/IC2_Folded_biquad/folded_cascode/Folded_cascode_full_circuit/adexl
@@ -75,23 +75,30 @@ Setting var W_in = "60u"
 Setting temp(T) = 27
 
 *Info*    Netlist Directory =
-          /home/cadence/simulation/folded_cascode/Folded_cascode_full_circuit/adexl/results/data/Interactive.83/1/folded_cascode:Folded_cascode_full_circuit:1/netlist
+          /home/cadence/simulation/folded_cascode/Folded_cascode_full_circuit/adexl/results/data/Interactive.89/1/folded_cascode:Folded_cascode_full_circuit:1/netlist
 
 
 *Info*    Data Directory    =
-          /home/cadence/simulation/folded_cascode/Folded_cascode_full_circuit/adexl/results/data/Interactive.83/1/folded_cascode:Folded_cascode_full_circuit:1
+          /home/cadence/simulation/folded_cascode/Folded_cascode_full_circuit/adexl/results/data/Interactive.89/1/folded_cascode:Folded_cascode_full_circuit:1
 
 
 *Info*    Creating Netlist for Point ID (0 1)
 
 generate netlist...
 Loading seCore.cxt 
-Begin Incremental Netlisting May  3 16:42:27 2025
-End netlisting May  3 16:42:27 2025
+Begin Incremental Netlisting May  3 17:57:03 2025
+WARNING (OSSHNL-160): The primitive, 'analogLib/xfmr/spectre', was not used in the last netlisting session in this
+current run directory. Therefore, re-netlisting all cell views where this
+primitive is instantiated.
+
+End netlisting May  3 17:57:03 2025
 Loading monte.cxt 
 
-	The netlist is up to date.
-	Time taken to compare the design with netlist:   1.0s
+Netlisting Statistics:
+	Number of components:    9
+
+	Elapsed time:          1.0s (9.00/s)
+Errors: 0	Warnings: 0
       ...successful.
 compose simulator input file...
       ...successful.
@@ -100,7 +107,7 @@ compose simulator input file...
           folded_cascode:Folded_cascode_full_circuit:1 ] for Point ID
           (0 1).
 
-Delete psf data in /home/cadence/simulation/folded_cascode/Folded_cascode_full_circuit/adexl/results/data/Interactive.83/1/folded_cascode:Folded_cascode_full_circuit:1/psf.
+Delete psf data in /home/cadence/simulation/folded_cascode/Folded_cascode_full_circuit/adexl/results/data/Interactive.89/1/folded_cascode:Folded_cascode_full_circuit:1/psf.
 compose simulator input file...
       ...successful.
 start simulator if needed...
@@ -113,12 +120,6 @@ INFO (ADE-3071): Simulation completed successfully.
 reading simulation data...
       ...successful.
 *Info*    Client has finished evaluating ... 
-
-WARNING (OCN-6038): Results stb are not available for /home/cadence/simulation/folded_cascode/Folded_cascode_full_circuit/adexl/results/data/Interactive.83/1/folded_cascode:Folded_cascode_full_circuit:1. Use results() for a list of available results.
-WARNING (OCN-6038): Results stb are not available for /home/cadence/simulation/folded_cascode/Folded_cascode_full_circuit/adexl/results/data/Interactive.83/1/folded_cascode:Folded_cascode_full_circuit:1. Use results() for a list of available results.
-ERROR (ADEXL-2709): Evaluation of output 'Loop_gain_dB' returned 'nil' for point:'1' test:'folded_cascode:Folded_cascode_full_circuit:1'
-	Expression:'dB20(getData("loopGain" ?result "stb"))'.
-Ensure that the definition of output is correct.
 
 
 *Info*    Run complete for Point ID (0 1) on testbench [
