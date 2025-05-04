@@ -39,7 +39,7 @@ tmp1->type = nil
 tmp1->areaTable = nil
 tmp1->selectionDetail = nil
 tmp1->value = nil
-tmp1->plot = nil
+tmp1->plot = 't
 tmp1->save = nil
 tmp1->march = nil
 tmp1->index = 1
@@ -92,7 +92,7 @@ tmp1->type = nil
 tmp1->areaTable = nil
 tmp1->selectionDetail = nil
 tmp1->value = nil
-tmp1->plot = nil
+tmp1->plot = 't
 tmp1->save = nil
 tmp1->march = nil
 tmp1->index = 2
@@ -147,7 +147,7 @@ tmp1->type = nil
 tmp1->areaTable = nil
 tmp1->selectionDetail = nil
 tmp1->value = nil
-tmp1->plot = nil
+tmp1->plot = 't
 tmp1->save = nil
 tmp1->march = nil
 tmp1->index = 3
@@ -638,9 +638,40 @@ tmp1 = (ncons nil)
 )
 tmp1->name = "HD2"
 tmp1->expression = (let
-(tmp1 tmp2 tmp3)
-tmp1 = 'harmonicDistortion
+(tmp1 tmp2 tmp3 tmp4 tmp5 tmp6 tmp7 tmp8 tmp9 tmp10 tmp11 tmp12 tmp13 tmp14 tmp15)
+tmp1 = 'spectrumMeasurement
 tmp2 = (let
+(tmp1 tmp2 tmp3)
+tmp1 = 'difference
+tmp2 = (let
+(tmp1 tmp2 tmp3 tmp4)
+tmp1 = 'dB10
+tmp2 = (let
+(tmp1 tmp2)
+tmp1 = 'powerHarmonic
+tmp2 = 2
+list(tmp1 tmp2)
+)
+tmp3 = '?
+tmp4 = 1.0000000000000001e-30
+list(tmp1 tmp2 tmp3 tmp4)
+)
+tmp3 = (let
+(tmp1 tmp2 tmp3 tmp4)
+tmp1 = 'dB10
+tmp2 = (let
+(tmp1 tmp2)
+tmp1 = 'powerHarmonic
+tmp2 = 1
+list(tmp1 tmp2)
+)
+tmp3 = '?
+tmp4 = 1.0000000000000001e-30
+list(tmp1 tmp2 tmp3 tmp4)
+)
+list(tmp1 tmp2 tmp3)
+)
+tmp3 = (let
 (tmp1 tmp2 tmp3 tmp4)
 tmp1 = 'v
 tmp2 = "/Vout"
@@ -648,8 +679,19 @@ tmp3 = '?result
 tmp4 = "tran"
 list(tmp1 tmp2 tmp3 tmp4)
 )
-tmp3 = 2
-list(tmp1 tmp2 tmp3)
+tmp4 = 't
+tmp5 = 0
+tmp6 = 1.0000000000000001e-05
+tmp7 = 1024
+tmp8 = 1
+tmp9 = 5.1200000000000000e+07
+tmp10 = 0
+tmp11 = "Rectangular"
+tmp12 = 0
+tmp13 = 0
+tmp14 = 8
+tmp15 = "HD2"
+list(tmp1 tmp2 tmp3 tmp4 tmp5 tmp6 tmp7 tmp8 tmp9 tmp10 tmp11 tmp12 tmp13 tmp14 tmp15)
 )
 tmp1->signal = nil
 tmp1->scriptFile = nil

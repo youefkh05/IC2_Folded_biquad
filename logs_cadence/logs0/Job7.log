@@ -7,13 +7,13 @@
 *Info*    Configuring the session ...
 
 	Library      = folded_cascode
-	Cell         = Folded_cascode_full_circuit
+	Cell         = Closed_Loop_TB
 	View         = schematic
 	Simulator    = spectre
 	State Path   = $AXL_SETUPDB_DIR/test_states
-	State Name   = folded_cascode:Folded_cascode_full_circuit:1_none_Interactive.78
-	Results DB   = /home/cadence/IC2_Folded_biquad/IC2_Folded_biquad/folded_cascode/Folded_cascode_full_circuit/adexl/results/data/Interactive.78.rdb
-	Results Dir  = /home/cadence/simulation/folded_cascode/Folded_cascode_full_circuit/adexl/results/data/Interactive.78/1/folded_cascode:Folded_cascode_full_circuit:1
+	State Name   = folded_cascode:Closed_Loop_TB:1_none_Interactive.124
+	Results DB   = /home/cadence/IC2_Folded_biquad/IC2_Folded_biquad/folded_cascode/Folded_cascode_full_circuit/adexl/results/data/Interactive.124.rdb
+	Results Dir  = /home/cadence/simulation/folded_cascode/Folded_cascode_full_circuit/adexl/results/data/Interactive.124/1/folded_cascode:Closed_Loop_TB:1
 	Results Loc  = /home/cadence/simulation/folded_cascode/Folded_cascode_full_circuit/adexl/results/data
 	Project Dir  = /home/cadence/simulation
 	Setup DB loc = /home/cadence/IC2_Folded_biquad/IC2_Folded_biquad/folded_cascode/Folded_cascode_full_circuit/adexl
@@ -27,8 +27,8 @@
 
 
 
-*Info*    Run start for Point ID (2 1) on testbench [
-          folded_cascode:Folded_cascode_full_circuit:1 ].
+*Info*    Run start for Point ID (3 1) on testbench [
+          folded_cascode:Closed_Loop_TB:1 ].
 
 Resetting statistical vars
 
@@ -75,18 +75,18 @@ Setting var W_in = "60u"
 Setting temp(T) = 27
 
 *Info*    Netlist Directory =
-          /home/cadence/simulation/folded_cascode/Folded_cascode_full_circuit/adexl/results/data/Interactive.78/1/folded_cascode:Folded_cascode_full_circuit:1/netlist
+          /home/cadence/simulation/folded_cascode/Folded_cascode_full_circuit/adexl/results/data/Interactive.124/1/folded_cascode:Closed_Loop_TB:1/netlist
 
 
 *Info*    Data Directory    =
-          /home/cadence/simulation/folded_cascode/Folded_cascode_full_circuit/adexl/results/data/Interactive.78/1/folded_cascode:Folded_cascode_full_circuit:1
+          /home/cadence/simulation/folded_cascode/Folded_cascode_full_circuit/adexl/results/data/Interactive.124/1/folded_cascode:Closed_Loop_TB:1
 
 
-*Info*    Creating Netlist for Point ID (2 1)
+*Info*    Creating Netlist for Point ID (3 1)
 
 generate netlist...
-Begin Incremental Netlisting Apr 29 09:30:11 2025
-End netlisting Apr 29 09:30:11 2025
+Begin Incremental Netlisting May  3 20:55:01 2025
+End netlisting May  3 20:55:01 2025
 
 	The netlist is up to date.
 	Time taken to compare the design with netlist:   0.0s
@@ -95,10 +95,9 @@ compose simulator input file...
       ...successful.
 
 *Info*    Running simulation on testbench [
-          folded_cascode:Folded_cascode_full_circuit:1 ] for Point ID
-          (2 1).
+          folded_cascode:Closed_Loop_TB:1 ] for Point ID (3 1).
 
-Delete psf data in /home/cadence/simulation/folded_cascode/Folded_cascode_full_circuit/adexl/results/data/Interactive.78/1/folded_cascode:Folded_cascode_full_circuit:1/psf.
+Delete psf data in /home/cadence/simulation/folded_cascode/Folded_cascode_full_circuit/adexl/results/data/Interactive.124/1/folded_cascode:Closed_Loop_TB:1/psf.
 compose simulator input file...
       ...successful.
 start simulator if needed...
@@ -112,27 +111,15 @@ reading simulation data...
       ...successful.
 *Info*    Client has finished evaluating ... 
 
-WARNING (OCN-6038): Results ac are not available for /home/cadence/simulation/folded_cascode/Folded_cascode_full_circuit/adexl/results/data/Interactive.78/1/folded_cascode:Folded_cascode_full_circuit:1/psf. Use results() for a list of available results.
-WARNING (OCN-6038): Results tran_info-tran_info are not available for /home/cadence/simulation/folded_cascode/Folded_cascode_full_circuit/adexl/results/data/Interactive.78/1/folded_cascode:Folded_cascode_full_circuit:1/psf. Use results() for a list of available results.
-ERROR (ADEXL-2709): Evaluation of output 'V_out_dB' returned 'nil' for point:'1' test:'folded_cascode:Folded_cascode_full_circuit:1'
-	Expression:'dB20(VF("/net1"))'.
-Ensure that the definition of output is correct.
-
-WARNING (OCN-6038): Results ac are not available for /home/cadence/simulation/folded_cascode/Folded_cascode_full_circuit/adexl/results/data/Interactive.78/1/folded_cascode:Folded_cascode_full_circuit:1/psf. Use results() for a list of available results.
-WARNING (OCN-6038): Results tran_info-tran_info are not available for /home/cadence/simulation/folded_cascode/Folded_cascode_full_circuit/adexl/results/data/Interactive.78/1/folded_cascode:Folded_cascode_full_circuit:1/psf. Use results() for a list of available results.
-ERROR (ADEXL-2709): Evaluation of output 'GBW' returned 'nil' for point:'1' test:'folded_cascode:Folded_cascode_full_circuit:1'
-	Expression:'gainBwProd(VF("/net1"))'.
-Ensure that the definition of output is correct.
-
-WARNING (OCN-6038): Results stb are not available for /home/cadence/simulation/folded_cascode/Folded_cascode_full_circuit/adexl/results/data/Interactive.78/1/folded_cascode:Folded_cascode_full_circuit:1/psf. Use results() for a list of available results.
-WARNING (OCN-6038): Results stb are not available for /home/cadence/simulation/folded_cascode/Folded_cascode_full_circuit/adexl/results/data/Interactive.78/1/folded_cascode:Folded_cascode_full_circuit:1/psf. Use results() for a list of available results.
-ERROR (ADEXL-2709): Evaluation of output 'Loop_gain_dB' returned 'nil' for point:'1' test:'folded_cascode:Folded_cascode_full_circuit:1'
-	Expression:'dB20(getData("loopGain" ?result "stb"))'.
+ERROR (ADEXL-2708): Evaluation of output 'HD2' failed for point:'1' test:'folded_cascode:Closed_Loop_TB:1'
+	Expression:'(harmonicDistortion v("/Vout" ?result "tran") 2)'
+	because of the following error(s)
+	*Error* eval: undefined function.
 Ensure that the definition of output is correct.
 
 
-*Info*    Run complete for Point ID (2 1) on testbench [
-          folded_cascode:Folded_cascode_full_circuit:1 ].
+*Info*    Run complete for Point ID (3 1) on testbench [
+          folded_cascode:Closed_Loop_TB:1 ].
 
 
 

@@ -7,13 +7,13 @@
 *Info*    Configuring the session ...
 
 	Library      = folded_cascode
-	Cell         = Folded_cascode_unity_feedback
+	Cell         = Closed_Loop_TB
 	View         = schematic
 	Simulator    = spectre
 	State Path   = $AXL_SETUPDB_DIR/test_states
-	State Name   = Unity_Stability_Test_none_Interactive.89
-	Results DB   = /home/cadence/IC2_Folded_biquad/IC2_Folded_biquad/folded_cascode/Folded_cascode_full_circuit/adexl/results/data/Interactive.89.rdb
-	Results Dir  = /home/cadence/simulation/folded_cascode/Folded_cascode_full_circuit/adexl/results/data/Interactive.89/1/Unity_Stability_Test
+	State Name   = folded_cascode:Closed_Loop_TB:1_none_Interactive.126
+	Results DB   = /home/cadence/IC2_Folded_biquad/IC2_Folded_biquad/folded_cascode/Folded_cascode_full_circuit/adexl/results/data/Interactive.126.rdb
+	Results Dir  = /home/cadence/simulation/folded_cascode/Folded_cascode_full_circuit/adexl/results/data/Interactive.126/1/folded_cascode:Closed_Loop_TB:1
 	Results Loc  = /home/cadence/simulation/folded_cascode/Folded_cascode_full_circuit/adexl/results/data
 	Project Dir  = /home/cadence/simulation
 	Setup DB loc = /home/cadence/IC2_Folded_biquad/IC2_Folded_biquad/folded_cascode/Folded_cascode_full_circuit/adexl
@@ -27,8 +27,8 @@
 
 
 
-*Info*    Run start for Point ID (6 1) on testbench [
-          Unity_Stability_Test ].
+*Info*    Run start for Point ID (5 1) on testbench [
+          folded_cascode:Closed_Loop_TB:1 ].
 
 Resetting statistical vars
 
@@ -75,30 +75,21 @@ Setting var W_in = "60u"
 Setting temp(T) = 27
 
 *Info*    Netlist Directory =
-          /home/cadence/simulation/folded_cascode/Folded_cascode_full_circuit/adexl/results/data/Interactive.89/1/Unity_Stability_Test/netlist
+          /home/cadence/simulation/folded_cascode/Folded_cascode_full_circuit/adexl/results/data/Interactive.126/1/folded_cascode:Closed_Loop_TB:1/netlist
 
 
 *Info*    Data Directory    =
-          /home/cadence/simulation/folded_cascode/Folded_cascode_full_circuit/adexl/results/data/Interactive.89/1/Unity_Stability_Test
+          /home/cadence/simulation/folded_cascode/Folded_cascode_full_circuit/adexl/results/data/Interactive.126/1/folded_cascode:Closed_Loop_TB:1
 
 
-*Info*    Creating Netlist for Point ID (6 1)
+*Info*    Creating Netlist for Point ID (5 1)
 
 generate netlist...
-Initializing the control file using cp:
-    cp /usr/local/cadence/IC617/tools.lnx86/dfII/etc/si/control.spectre /home/cadence/simulation/folded_cascode/Folded_cascode_full_circuit/adexl/results/data/Interactive.89/1/Unity_Stability_Test/netlist/control
-Copying Spectre source file 'spectre.inp'
-Copying Spectre command file 'spectre.sim'
-Begin Incremental Netlisting May  3 17:30:04 2025
-INFO (OSSHNL-251): Mismatch found in the direction of terminal 'IB' in the placed master
-'folded_cascode/CM_Bias/symbol' and its corresponding terminal in the switch master 'folded_cascode/CM_Bias/schematic',
-however, this terminal is printed in the netlist because the variable
-simCheckTermDirectionMismatch is either set to 'ignore' or is not set.
-
-End netlisting May  3 17:30:04 2025
+Begin Incremental Netlisting May  3 21:09:05 2025
+End netlisting May  3 21:09:05 2025
 
 Netlisting Statistics:
-	Number of components:   28
+	Number of components:    6
 
 	Elapsed time:          0.0s
 Errors: 0	Warnings: 0
@@ -106,10 +97,10 @@ Errors: 0	Warnings: 0
 compose simulator input file...
       ...successful.
 
-*Info*    Running simulation on testbench [ Unity_Stability_Test ]
-          for Point ID (6 1).
+*Info*    Running simulation on testbench [
+          folded_cascode:Closed_Loop_TB:1 ] for Point ID (5 1).
 
-Delete psf data in /home/cadence/simulation/folded_cascode/Folded_cascode_full_circuit/adexl/results/data/Interactive.89/1/Unity_Stability_Test/psf.
+Delete psf data in /home/cadence/simulation/folded_cascode/Folded_cascode_full_circuit/adexl/results/data/Interactive.126/1/folded_cascode:Closed_Loop_TB:1/psf.
 compose simulator input file...
       ...successful.
 start simulator if needed...
@@ -123,9 +114,23 @@ reading simulation data...
       ...successful.
 *Info*    Client has finished evaluating ... 
 
+ERROR (ADEXL-2708): Evaluation of output 'HD2' failed for point:'1' test:'folded_cascode:Closed_Loop_TB:1'
+	Expression:'(harmonicDistortion v("/Vout" ?result "tran") 2)'
+	because of the following error(s)
+	*Error* eval: undefined function.
+Ensure that the definition of output is correct.
 
-*Info*    Run complete for Point ID (6 1) on testbench [
-          Unity_Stability_Test ].
+ERROR (ADEXL-2709): Evaluation of output 'SR' returned 'nil' for point:'1' test:'folded_cascode:Closed_Loop_TB:1'
+	Expression:'slewRate(VT("/Vout") 0.8 nil 2.4 nil 10 90 nil "time")'.
+Ensure that the definition of output is correct.
+
+ERROR (ADEXL-2709): Evaluation of output 'spectrum_peakharmpower' returned 'nil' for point:'1' test:'folded_cascode:Closed_Loop_TB:1'
+	Expression:'spectrumMeasurement(value(v("/Vout" ?result "tran") "WB_VB3_CM" 7.4e-07) t 0 1e-05 1024 1 5.12e+07 0 "Rectangular" 0 0 8 "peakharmpower")'.
+Ensure that the definition of output is correct.
+
+
+*Info*    Run complete for Point ID (5 1) on testbench [
+          folded_cascode:Closed_Loop_TB:1 ].
 
 
 

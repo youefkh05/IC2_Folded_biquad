@@ -7,16 +7,16 @@
 *Info*    Configuring the session ...
 
 	Library      = folded_cascode
-	Cell         = Folded_cascode_full_circuit
+	Cell         = Closed_Loop_TB
 	View         = schematic
 	Simulator    = spectre
 	State Path   = $AXL_SETUPDB_DIR/test_states
-	State Name   = folded_cascode:Folded_cascode_full_circuit:1_none_Interactive.65
-	Results DB   = /home/cadence/IC2_Mini_biquad/folded_cascode/Folded_cascode_full_circuit/adexl/results/data/Interactive.65.rdb
-	Results Dir  = /home/cadence/simulation/folded_cascode/Folded_cascode_full_circuit/adexl/results/data/Interactive.65/1/folded_cascode:Folded_cascode_full_circuit:1
+	State Name   = folded_cascode:Closed_Loop_TB:1_none_Interactive.125
+	Results DB   = /home/cadence/IC2_Folded_biquad/IC2_Folded_biquad/folded_cascode/Folded_cascode_full_circuit/adexl/results/data/Interactive.125.rdb
+	Results Dir  = /home/cadence/simulation/folded_cascode/Folded_cascode_full_circuit/adexl/results/data/Interactive.125/1/folded_cascode:Closed_Loop_TB:1
 	Results Loc  = /home/cadence/simulation/folded_cascode/Folded_cascode_full_circuit/adexl/results/data
 	Project Dir  = /home/cadence/simulation
-	Setup DB loc = /home/cadence/IC2_Mini_biquad/folded_cascode/Folded_cascode_full_circuit/adexl
+	Setup DB loc = /home/cadence/IC2_Folded_biquad/IC2_Folded_biquad/folded_cascode/Folded_cascode_full_circuit/adexl
 	File Encoding = 0
 
 
@@ -28,7 +28,7 @@
 
 
 *Info*    Run start for Point ID (4 1) on testbench [
-          folded_cascode:Folded_cascode_full_circuit:1 ].
+          folded_cascode:Closed_Loop_TB:1 ].
 
 Resetting statistical vars
 
@@ -60,58 +60,44 @@ Setting var Vb2 = "1.94"
 Setting var Vb3 = "1.35"
 Setting var WB_CM1 = "5.9u"
 Setting var WB_CM2 = "14.35e-6"
-Setting var WB_CM3 = "14.35e-6"
+Setting var WB_CM3 = "7.175e-6"
 Setting var WB_VB0 = "28.7u"
 Setting var WB_VB2_CASC = "4.2u"
 Setting var WB_VB2_CM = "1.21u"
-Setting var WB_VB3_CASC = "3u"
-Setting var WB_VB3_CM = "1u"
+Setting var WB_VB3_CASC = "13.805e-6"
+Setting var WB_VB3_CM = "740n"
 Setting var W_CM = "1.25u"
-Setting var W_CS = "125u"
+Setting var W_CS = "110u"
 Setting var W_cascN = "10.15u"
 Setting var W_cascp = "10u"
 Setting var W_fold = "28.36u"
-Setting var W_in = "45u"
+Setting var W_in = "60u"
 Setting temp(T) = 27
 
 *Info*    Netlist Directory =
-          /home/cadence/simulation/folded_cascode/Folded_cascode_full_circuit/adexl/results/data/Interactive.65/1/folded_cascode:Folded_cascode_full_circuit:1/netlist
+          /home/cadence/simulation/folded_cascode/Folded_cascode_full_circuit/adexl/results/data/Interactive.125/1/folded_cascode:Closed_Loop_TB:1/netlist
 
 
 *Info*    Data Directory    =
-          /home/cadence/simulation/folded_cascode/Folded_cascode_full_circuit/adexl/results/data/Interactive.65/1/folded_cascode:Folded_cascode_full_circuit:1
+          /home/cadence/simulation/folded_cascode/Folded_cascode_full_circuit/adexl/results/data/Interactive.125/1/folded_cascode:Closed_Loop_TB:1
 
 
 *Info*    Creating Netlist for Point ID (4 1)
 
 generate netlist...
-Begin Incremental Netlisting Apr 29 07:35:13 2025
-WARNING (OSSHNL-226): There are more design variables used in the current netlisting session as
-compared to the last session in the current run directory. The netlist(s)
-generated in the last netlisting session cannot be reused for incremental
-netlisting. Therefore re-netlisting the design.
+Begin Incremental Netlisting May  3 20:55:29 2025
+End netlisting May  3 20:55:29 2025
 
-INFO (OSSHNL-251): Mismatch found in the direction of terminal 'IB' in the placed master
-'folded_cascode/CM_Bias/symbol' and its corresponding terminal in the switch master 'folded_cascode/CM_Bias/schematic',
-however, this terminal is printed in the netlist because the variable
-simCheckTermDirectionMismatch is either set to 'ignore' or is not set.
-
-End netlisting Apr 29 07:35:13 2025
-
-Netlisting Statistics:
-	Number of components:   35
-
-	Elapsed time:          1.0s (35.00/s)
-Errors: 0	Warnings: 0
+	The netlist is up to date.
+	Time taken to compare the design with netlist:   0.0s
       ...successful.
 compose simulator input file...
       ...successful.
 
 *Info*    Running simulation on testbench [
-          folded_cascode:Folded_cascode_full_circuit:1 ] for Point ID
-          (4 1).
+          folded_cascode:Closed_Loop_TB:1 ] for Point ID (4 1).
 
-Delete psf data in /home/cadence/simulation/folded_cascode/Folded_cascode_full_circuit/adexl/results/data/Interactive.65/1/folded_cascode:Folded_cascode_full_circuit:1/psf.
+Delete psf data in /home/cadence/simulation/folded_cascode/Folded_cascode_full_circuit/adexl/results/data/Interactive.125/1/folded_cascode:Closed_Loop_TB:1/psf.
 compose simulator input file...
       ...successful.
 start simulator if needed...
@@ -125,21 +111,21 @@ reading simulation data...
       ...successful.
 *Info*    Client has finished evaluating ... 
 
-WARNING (OCN-6038): Results ac are not available for /home/cadence/simulation/folded_cascode/Folded_cascode_full_circuit/adexl/results/data/Interactive.65/1/folded_cascode:Folded_cascode_full_circuit:1/psf. Use results() for a list of available results.
-WARNING (OCN-6038): Results tran_info-tran_info are not available for /home/cadence/simulation/folded_cascode/Folded_cascode_full_circuit/adexl/results/data/Interactive.65/1/folded_cascode:Folded_cascode_full_circuit:1/psf. Use results() for a list of available results.
-ERROR (ADEXL-2709): Evaluation of output 'V_out_dB' returned 'nil' for point:'1' test:'folded_cascode:Folded_cascode_full_circuit:1'
-	Expression:'dB20(VF("/net1"))'.
+ERROR (ADEXL-2709): Evaluation of output 'HD2' returned 'nil' for point:'1' test:'folded_cascode:Closed_Loop_TB:1'
+	Expression:'(harmonicDistortion v("/Vout" ?result "tran") 2)'.
 Ensure that the definition of output is correct.
 
-WARNING (OCN-6038): Results ac are not available for /home/cadence/simulation/folded_cascode/Folded_cascode_full_circuit/adexl/results/data/Interactive.65/1/folded_cascode:Folded_cascode_full_circuit:1/psf. Use results() for a list of available results.
-WARNING (OCN-6038): Results tran_info-tran_info are not available for /home/cadence/simulation/folded_cascode/Folded_cascode_full_circuit/adexl/results/data/Interactive.65/1/folded_cascode:Folded_cascode_full_circuit:1/psf. Use results() for a list of available results.
-ERROR (ADEXL-2709): Evaluation of output 'GBW' returned 'nil' for point:'1' test:'folded_cascode:Folded_cascode_full_circuit:1'
-	Expression:'gainBwProd(VF("/net1"))'.
+ERROR (ADEXL-2709): Evaluation of output 'SR' returned 'nil' for point:'1' test:'folded_cascode:Closed_Loop_TB:1'
+	Expression:'slewRate(VT("/Vout") 0.8 nil 2.4 nil 10 90 nil "time")'.
+Ensure that the definition of output is correct.
+
+ERROR (ADEXL-2709): Evaluation of output 'spectrum_peakharmpower' returned 'nil' for point:'1' test:'folded_cascode:Closed_Loop_TB:1'
+	Expression:'spectrumMeasurement(value(v("/Vout" ?result "tran") "WB_VB3_CM" 7.4e-07) t 0 1e-05 1024 1 5.12e+07 0 "Rectangular" 0 0 8 "peakharmpower")'.
 Ensure that the definition of output is correct.
 
 
 *Info*    Run complete for Point ID (4 1) on testbench [
-          folded_cascode:Folded_cascode_full_circuit:1 ].
+          folded_cascode:Closed_Loop_TB:1 ].
 
 
 
