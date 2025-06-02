@@ -328,5 +328,120 @@
 			<schematicpoint></schematicpoint>
 			<test>all</test>
 		</historyentry>
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.2
+			<checkpoint>
+				<corners>
+					<corner enabled="1">_default</corner>
+				</corners>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+					</extension>
+				</extensions>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<overwritehistory>0</overwritehistory>
+				<tests>
+					<test>band_pass_filter_opamp:opamp_filter:1
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>opamp_filter</value>
+							</option>
+							<option>lib
+								<value>band_pass_filter_opamp</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>band_pass_filter_opamp:opamp_filter:1_none_Interactive.2</value>
+							</option>
+						</tooloptions>
+						<origoptions>
+							<option>cell
+								<value>opamp_filter</value>
+							</option>
+							<option>lib
+								<value>band_pass_filter_opamp</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+					</test>
+				</tests>
+				<vars>
+					<var enabled="0">C3
+						<value></value>
+						<dependentTests>
+							<dependentTest enabled="0" omitted="0">band_pass_filter_opamp:opamp_filter:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="0">C5
+						<value></value>
+						<dependentTests>
+							<dependentTest enabled="0" omitted="0">band_pass_filter_opamp:opamp_filter:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="0">R1
+						<value></value>
+						<dependentTests>
+							<dependentTest enabled="0" omitted="0">band_pass_filter_opamp:opamp_filter:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="0">vdd_n
+						<value></value>
+						<dependentTests>
+							<dependentTest enabled="0" omitted="0">band_pass_filter_opamp:opamp_filter:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="0">Vdd_p
+						<value></value>
+						<dependentTests>
+							<dependentTest enabled="0" omitted="0">band_pass_filter_opamp:opamp_filter:1</dependentTest>
+						</dependentTests>
+					</var>
+				</vars>
+				<overwritehistoryname>Interactive.0</overwritehistoryname>
+				<plottingoptions>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>waveformtemplate
+						<value>                            </value>
+					</plottingoption>
+				</plottingoptions>
+				<sortVariableValues>0</sortVariableValues>
+			</checkpoint>
+			<timestamp>Mon Jun  2 14:26:46 2025
+</timestamp>
+			<resultsname>/home/cadence/IC2_Folded_biquad/IC2_Folded_biquad/band_pass_filter_opamp/opamp_filter/adexl/results/data/Interactive.2.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.2.rdb</simresults>
+			<rawdatadelstrategy>SaveAll</rawdatadelstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/berkeley_cadence_142647053</localpsfdir>
+			<psfdir>/home/cadence/simulation/band_pass_filter_opamp/opamp_filter/adexl/results/data/Interactive.2</psfdir>
+			<simdir>$AXL_PROJECT_DIR/band_pass_filter_opamp/opamp_filter/adexl/results/data/Interactive.2</simdir>
+			<gendatasheetplotsonsimulation>1</gendatasheetplotsonsimulation>
+			<runlog>/home/cadence/IC2_Folded_biquad/IC2_Folded_biquad/band_pass_filter_opamp/opamp_filter/adexl/results/data/Interactive.2.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.2.log</runlogfile>
+			<schematicpoint></schematicpoint>
+			<test>all</test>
+		</historyentry>
 	</history>
 </setupdb>
