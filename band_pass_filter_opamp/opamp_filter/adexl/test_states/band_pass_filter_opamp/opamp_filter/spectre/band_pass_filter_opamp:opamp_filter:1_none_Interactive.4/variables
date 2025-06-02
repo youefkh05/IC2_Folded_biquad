@@ -43,7 +43,7 @@ tmp5 = make_sevVariableStruct()
 tmp5 = (ncons nil)
 )
 tmp5->name = "R12"
-tmp5->expression = "17111.1206133"
+tmp5->expression = "1711.11206133"
 tmp5->index = 5
 (unless tmp6
 tmp6 = make_sevVariableStruct()
@@ -52,7 +52,7 @@ tmp6 = make_sevVariableStruct()
 tmp6 = (ncons nil)
 )
 tmp6->name = "R13"
-tmp6->expression = "29919.6173029"
+tmp6->expression = "2991.96173029"
 tmp6->index = 6
 (unless tmp7
 tmp7 = make_sevVariableStruct()
@@ -79,7 +79,7 @@ tmp9 = make_sevVariableStruct()
 tmp9 = (ncons nil)
 )
 tmp9->name = "R1"
-tmp9->expression = "36619.2998633"
+tmp9->expression = "3661.92998633"
 tmp9->index = 9
 (unless tmp10
 tmp10 = make_sevVariableStruct()
