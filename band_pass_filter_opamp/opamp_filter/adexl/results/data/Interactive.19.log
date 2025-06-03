@@ -1,0 +1,15 @@
+Starting Single Run, Sweeps and Corners...
+
+Current time: Tue Jun  3 07:36:57 2025 
+Best design point: 1
+Design specs: 
+	band_pass_filter_opamp:opamp_filter:1	corner	C15Up - 
+	band_pass_filter_opamp:opamp_filter:1	corner	C15down - 
+	band_pass_filter_opamp:opamp_filter:1	corner	Nominal - 
+Design parameters: 
+
+Interactive.19
+Number of points completed: 1
+Number of simulation errors: 0
+Interactive.19 completed. 
+Current time: Tue Jun  3 07:37:34 2025 
